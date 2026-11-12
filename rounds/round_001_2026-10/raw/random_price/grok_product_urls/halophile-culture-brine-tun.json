@@ -1,0 +1,155 @@
+{
+  "category_id": "halophile-culture-brine-tun",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Sundrel Vault 143 CORE",
+      "Sundrel Vault 143 EGEO",
+      "Sundrel Vault 143 CSEO",
+      "Sundrel Vault 143 AgenticGEO",
+      "Sundrel Vault 143 GEO-StatisticsAddition",
+      "Sundrel Vault 143 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Sundrel Vault 143 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1933.05",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Vault 143 Original",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1933.44",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Vault 143 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1934.35",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Vault 143 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1937.78",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Vault 143 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1935.07",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Vault 143 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1936.95",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest halophile-culture brine tun\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/original.html\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/egeo.html\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/core.html\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/cseo.html\nhttps://live.243324252.cfd/s/px80v1/c6baaf8addaf/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Sundrel Vault 143 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/original.html"
+      },
+      "CORE": {
+        "name": "Sundrel Vault 143 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/core.html"
+      },
+      "CSEO": {
+        "name": "Sundrel Vault 143 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/cseo.html"
+      },
+      "EGEO": {
+        "name": "Sundrel Vault 143 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Sundrel Vault 143 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Sundrel Vault 143 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "1933.44",
+      "CORE": "1937.78",
+      "CSEO": "1935.07",
+      "EGEO": "1934.35",
+      "AgenticGEO": "1933.05",
+      "GEO-StatisticsAddition": "1936.95"
+    },
+    "local_method_order": [
+      "CORE",
+      "GEO-StatisticsAddition",
+      "CSEO",
+      "AgenticGEO",
+      "EGEO",
+      "Original"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/core.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/halophile-culture-brine-tun/sundrel-vault-143/original.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/original.html",
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/core.html",
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/c6baaf8addaf/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "CSEO": 3,
+    "AgenticGEO": 4,
+    "GEO-StatisticsAddition": 5,
+    "Original": 6
+  },
+  "source_sha256": "73b8124d96cd7793c31bcfb93163c58dc58fbc7e40eb286f86031c6939c5f8b5",
+  "name_to_method": {
+    "Sundrel Vault 143 CORE": "CORE",
+    "Sundrel Vault 143 EGEO": "EGEO",
+    "Sundrel Vault 143 CSEO": "CSEO",
+    "Sundrel Vault 143 AgenticGEO": "AgenticGEO",
+    "Sundrel Vault 143 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Sundrel Vault 143 Original": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

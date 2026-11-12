@@ -1,0 +1,135 @@
+{
+  "category_id": "foehn-sheltered-ridge-lookout",
+  "condition_id": "c08",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Estavel Post 109 EGEO",
+      "Estavel Post 109 AgenticGEO",
+      "Estavel Post 109 GEO-StatisticsAddition",
+      "Estavel Post 109 CORE",
+      "Estavel Post 109 CSEO",
+      "Estavel Post 109 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Estavel Post 109 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/egeo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 693.48 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Estavel Post 109 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/agenticgeo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 693.68 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Estavel Post 109 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/geo-statisticsaddition",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 694.77 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Estavel Post 109 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/core",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 693.17 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Estavel Post 109 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/cseo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 693.02 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Estavel Post 109 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/original",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 692.30 per person",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest foehn-sheltered ridge lookout\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/a47957a61591/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Estavel Post 109 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/original.html"
+      },
+      "CORE": {
+        "name": "Estavel Post 109 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/core.html"
+      },
+      "CSEO": {
+        "name": "Estavel Post 109 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/cseo.html"
+      },
+      "EGEO": {
+        "name": "Estavel Post 109 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Estavel Post 109 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Estavel Post 109 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "692.30",
+      "CORE": "693.17",
+      "CSEO": "693.02",
+      "EGEO": "693.48",
+      "AgenticGEO": "693.68",
+      "GEO-StatisticsAddition": "694.77"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/a47957a61591/"
+  },
+  "ranks": {
+    "EGEO": 1,
+    "AgenticGEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "CORE": 4,
+    "CSEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "37bc0e7bead982e158a51c3b99d15c5d7bbf4502c7a3ea543992908e7cb9a3d8",
+  "name_to_method": {
+    "Estavel Post 109 EGEO": "EGEO",
+    "Estavel Post 109 AgenticGEO": "AgenticGEO",
+    "Estavel Post 109 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Estavel Post 109 CORE": "CORE",
+    "Estavel Post 109 CSEO": "CSEO",
+    "Estavel Post 109 Original": "Original"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "model": "GPT-6",
+    "effort": "High",
+    "temporary": true
+  },
+  "condition_settings": "settings.json"
+}

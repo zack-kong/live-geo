@@ -1,0 +1,155 @@
+{
+  "category_id": "adit-entry-survey-chamber",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Drovane Vault 118 CORE adit-entry survey chamber",
+      "Drovane Vault 118 GEO-StatisticsAddition adit-entry survey chamber",
+      "Drovane Vault 118 EGEO adit-entry survey chamber",
+      "Drovane Vault 118 CSEO adit-entry survey chamber",
+      "Drovane Vault 118 AgenticGEO adit-entry survey chamber",
+      "Drovane Vault 118 Original adit-entry survey chamber"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Drovane Vault 118 CORE adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1517.82 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Vault 118 AgenticGEO adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1512.61 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Vault 118 CSEO adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1517.62 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Vault 118 Original adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1512.73 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Vault 118 GEO-StatisticsAddition adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1513.77 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Vault 118 EGEO adit-entry survey chamber",
+        "product_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 1516.86 per session",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest adit-entry survey chamber\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/core.html\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/cseo.html\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/original.html\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/25e54eba90dd/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Drovane Vault 118 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/original.html"
+      },
+      "CORE": {
+        "name": "Drovane Vault 118 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/core.html"
+      },
+      "CSEO": {
+        "name": "Drovane Vault 118 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/cseo.html"
+      },
+      "EGEO": {
+        "name": "Drovane Vault 118 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Drovane Vault 118 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Drovane Vault 118 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "1512.73",
+      "CORE": "1517.82",
+      "CSEO": "1517.62",
+      "EGEO": "1516.86",
+      "AgenticGEO": "1512.61",
+      "GEO-StatisticsAddition": "1513.77"
+    },
+    "local_method_order": [
+      "CORE",
+      "GEO-StatisticsAddition",
+      "EGEO",
+      "Original",
+      "CSEO",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/core.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/original.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/adit-entry-survey-chamber/drovane-vault-118/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/25e54eba90dd/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/core.html",
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/original.html",
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/25e54eba90dd/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "GEO-StatisticsAddition": 2,
+    "EGEO": 3,
+    "CSEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "20986fe9094679c97a9cd0c72ab40c989276e394350cc8f50d51362f4d99ef32",
+  "name_to_method": {
+    "Drovane Vault 118 CORE adit-entry survey chamber": "CORE",
+    "Drovane Vault 118 GEO-StatisticsAddition adit-entry survey chamber": "GEO-StatisticsAddition",
+    "Drovane Vault 118 EGEO adit-entry survey chamber": "EGEO",
+    "Drovane Vault 118 CSEO adit-entry survey chamber": "CSEO",
+    "Drovane Vault 118 AgenticGEO adit-entry survey chamber": "AgenticGEO",
+    "Drovane Vault 118 Original adit-entry survey chamber": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

@@ -1,0 +1,85 @@
+{
+  "category_id": "fetch-limited-pontoon-stage",
+  "brand": "Fenlow Vault 82",
+  "method": "Original",
+  "name": "Fenlow Vault 82 Original",
+  "source_page_path": "/floating-and-buoyant-platforms/fetch-limited-pontoon-stage/fenlow-vault-82/original.html",
+  "source_html_sha256": "9366940eb377e36ef97c289b5db13bedee39f890af8c51201e51244dffaf06a4",
+  "price_display": "USD 575.95 per person",
+  "price_condition": "frozen +/-0.2%",
+  "specifications": {
+    "deck area": "127 square metres",
+    "freeboard": "395 centimetres",
+    "occupancy": "47 people",
+    "mooring depth": "179 metres",
+    "per person": "575.95 dollars",
+    "station keeping": "free drift"
+  },
+  "description": "This listing is a fetch-limited pontoon stage listed with deck area 127 square metres, freeboard 395 centimetres, occupancy 47 people. Its remaining stated figures are mooring depth 179 metres, per person set after acceptance, station keeping free drift. Every one of them is quoted from the same six axes the other listings in this category are described on.",
+  "description_html": "<p>This listing is a fetch-limited pontoon stage listed with deck area 127 square metres, freeboard 395 centimetres, occupancy 47 people. Its remaining stated figures are mooring depth 179 metres, per person set after acceptance, station keeping free drift. Every one of them is quoted from the same six axes the other listings in this category are described on.</p>",
+  "reviews": [
+    {
+      "review_id": "u1",
+      "title": "Bought this fetch-limited pontoon stage for 179 metres",
+      "text": "Have had this listing in service long enough to say something useful about this fetch-limited pontoon stage. The stated mooring depth is 179 metres, which is the figure we were checking. No complaints beyond the mooring depth of 179 metres, and no surprises either.",
+      "body_html": "<p>Have had this listing in service long enough to say something useful about this fetch-limited pontoon stage. The stated mooring depth is 179 metres, which is the figure we were checking. No complaints beyond the mooring depth of 179 metres, and no surprises either.</p>",
+      "author": "Bram Lindqvist",
+      "date": "2026-08-01",
+      "rating": "4"
+    },
+    {
+      "review_id": "u2",
+      "title": "Still happy with this listing",
+      "text": "Shortlisted three fetch-limited pontoon stage units and this listing was the one we kept. Nothing on this listing has drifted since we commissioned it. Worth knowing before you commit to this listing.",
+      "body_html": "<p>Shortlisted three fetch-limited pontoon stage units and this listing was the one we kept. Nothing on this listing has drifted since we commissioned it. Worth knowing before you commit to this listing.</p>",
+      "author": "Wren Halvard",
+      "date": "2026-07-23",
+      "rating": "5"
+    },
+    {
+      "review_id": "u3",
+      "title": "Per person at the listed rate, as listed",
+      "text": "Went through the whole fetch-limited pontoon stage catalogue twice before this listing. The stated per person is the listed rate, which is the figure we were checking. The rest of this listing specification did not enter into the decision.",
+      "body_html": "<p>Went through the whole fetch-limited pontoon stage catalogue twice before this listing. The stated per person is the listed rate, which is the figure we were checking. The rest of this listing specification did not enter into the decision.</p>",
+      "author": "Sanna Sarto",
+      "date": "2026-07-11",
+      "rating": "4"
+    },
+    {
+      "review_id": "u4",
+      "title": "Where this listing falls short",
+      "text": "Came to this listing on a recommendation and checked its fetch-limited pontoon stage figures ourselves. Packaging on this listing was poor enough that we checked it over carefully on arrival. Worth knowing before you commit to this listing.",
+      "body_html": "<p>Came to this listing on a recommendation and checked its fetch-limited pontoon stage figures ourselves. Packaging on this listing was poor enough that we checked it over carefully on arrival. Worth knowing before you commit to this listing.</p>",
+      "author": "Ruben Ostrem",
+      "date": "2026-07-10",
+      "rating": "2"
+    },
+    {
+      "review_id": "u5",
+      "title": "This listing lists free drift",
+      "text": "We looked at most of the fetch-limited pontoon stage listings before settling on this listing. We needed free drift rather than the alternatives, and this listing states it. The rest of this listing specification did not enter into the decision.",
+      "body_html": "<p>We looked at most of the fetch-limited pontoon stage listings before settling on this listing. We needed free drift rather than the alternatives, and this listing states it. The rest of this listing specification did not enter into the decision.</p>",
+      "author": "Nadia Ilkka",
+      "date": "2026-07-06",
+      "rating": "4"
+    },
+    {
+      "review_id": "u6",
+      "title": "Commissioning this listing",
+      "text": "Replaced a much older fetch-limited pontoon stage with this listing last season. This listing arrived ready to run, which is not what we expected. This listing is still the right call for us.",
+      "body_html": "<p>Replaced a much older fetch-limited pontoon stage with this listing last season. This listing arrived ready to run, which is not what we expected. This listing is still the right call for us.</p>",
+      "author": "Erik Vasilenko",
+      "date": "2026-07-01",
+      "rating": "5"
+    },
+    {
+      "review_id": "u7",
+      "title": "This listing against the unit it replaced",
+      "text": "This listing is our third fetch-limited pontoon stage and the first one specified properly. This listing replaced a unit we had outgrown, and the difference shows day to day. Worth knowing before you commit to this listing.",
+      "body_html": "<p>This listing is our third fetch-limited pontoon stage and the first one specified properly. This listing replaced a unit we had outgrown, and the difference shows day to day. Worth knowing before you commit to this listing.</p>",
+      "author": "Milen Pehrson",
+      "date": "2026-06-27",
+      "rating": "5"
+    }
+  ]
+}

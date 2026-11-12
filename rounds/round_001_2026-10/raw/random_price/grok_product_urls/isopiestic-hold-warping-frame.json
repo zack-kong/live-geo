@@ -1,0 +1,155 @@
+{
+  "category_id": "isopiestic-hold-warping-frame",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Marrowend Vault 18 CORE isopiestic-hold warping frame",
+      "Marrowend Vault 18 CSEO isopiestic-hold warping frame",
+      "Marrowend Vault 18 GEO-StatisticsAddition isopiestic-hold warping frame",
+      "Marrowend Vault 18 EGEO isopiestic-hold warping frame",
+      "Marrowend Vault 18 AgenticGEO isopiestic-hold warping frame",
+      "Marrowend Vault 18 Original isopiestic-hold warping frame"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Marrowend Vault 18 Original isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13125.67 Listed (unit price set after acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      },
+      {
+        "product_name": "Marrowend Vault 18 EGEO isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13101.43 Listed (unit price upon acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      },
+      {
+        "product_name": "Marrowend Vault 18 CORE isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13119.96 Listed (unit price set after acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      },
+      {
+        "product_name": "Marrowend Vault 18 CSEO isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13086.72 Listed (unit price determined upon acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      },
+      {
+        "product_name": "Marrowend Vault 18 AgenticGEO isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13089.73 Listed (pricing established following acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      },
+      {
+        "product_name": "Marrowend Vault 18 GEO-StatisticsAddition isopiestic-hold warping frame",
+        "product_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13101.17 Listed (unit price set after acceptance)",
+        "access_limitation": "Only 7 most recent of 104 illustrative owner reports shown; concept listing, no order possible"
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest isopiestic-hold warping frame\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/original.html\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/egeo.html\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/core.html\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/cseo.html\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/b241dfef45c1/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Marrowend Vault 18 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/original.html"
+      },
+      "CORE": {
+        "name": "Marrowend Vault 18 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/core.html"
+      },
+      "CSEO": {
+        "name": "Marrowend Vault 18 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/cseo.html"
+      },
+      "EGEO": {
+        "name": "Marrowend Vault 18 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Marrowend Vault 18 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Marrowend Vault 18 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "13125.67",
+      "CORE": "13119.96",
+      "CSEO": "13086.72",
+      "EGEO": "13101.43",
+      "AgenticGEO": "13089.73",
+      "GEO-StatisticsAddition": "13101.17"
+    },
+    "local_method_order": [
+      "CSEO",
+      "Original",
+      "CORE",
+      "GEO-StatisticsAddition",
+      "AgenticGEO",
+      "EGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/original.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/core.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/isopiestic-hold-warping-frame/marrowend-vault-18/egeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/b241dfef45c1/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/original.html",
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/core.html",
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/b241dfef45c1/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "EGEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "ff4c864bf21c736d5ab716b9bb89c602f41667039725cd9599a92f80bb346fb1",
+  "name_to_method": {
+    "Marrowend Vault 18 CORE isopiestic-hold warping frame": "CORE",
+    "Marrowend Vault 18 CSEO isopiestic-hold warping frame": "CSEO",
+    "Marrowend Vault 18 GEO-StatisticsAddition isopiestic-hold warping frame": "GEO-StatisticsAddition",
+    "Marrowend Vault 18 EGEO isopiestic-hold warping frame": "EGEO",
+    "Marrowend Vault 18 AgenticGEO isopiestic-hold warping frame": "AgenticGEO",
+    "Marrowend Vault 18 Original isopiestic-hold warping frame": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

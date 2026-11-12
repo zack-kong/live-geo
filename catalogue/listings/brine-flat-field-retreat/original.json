@@ -1,0 +1,85 @@
+{
+  "category_id": "brine-flat-field-retreat",
+  "brand": "Oskarn Hall 47",
+  "method": "Original",
+  "name": "Oskarn Hall 47 Original",
+  "source_page_path": "/lodging-and-retreat-places/brine-flat-field-retreat/oskarn-hall-47/original.html",
+  "source_html_sha256": "c26989f39fccbce8af8d6df7cf2e9a25d6ef5aa9bc282664bd98963da05aace7",
+  "price_display": "USD 468.77 per night",
+  "price_condition": "frozen +/-0.2%",
+  "specifications": {
+    "sleeping berths": "9 berths",
+    "indoor temperature": "8 degrees Celsius",
+    "stay minimum": "3 nights",
+    "distance to road": "12 kilometres",
+    "nightly rate": "468.77 dollars",
+    "open months": "12 months"
+  },
+  "description": "This listing is a brine-flat field retreat listed with sleeping berths 9 berths, indoor temperature 8 degrees Celsius, stay minimum 3 nights. Its remaining stated figures are distance to road 12 kilometres, nightly rate set after acceptance, open months 12 months. Every one of them is quoted from the same six axes the other listings in this category are described on.",
+  "description_html": "<p>This listing is a brine-flat field retreat listed with sleeping berths 9 berths, indoor temperature 8 degrees Celsius, stay minimum 3 nights. Its remaining stated figures are distance to road 12 kilometres, nightly rate set after acceptance, open months 12 months. Every one of them is quoted from the same six axes the other listings in this category are described on.</p>",
+  "reviews": [
+    {
+      "review_id": "u1",
+      "title": "This listing in a smaller operation",
+      "text": "This listing is our third brine-flat field retreat and the first one specified properly. This listing sits in a seasonal operation, so it spends part of the year idle. Others may weigh it differently, but this listing suits us.",
+      "body_html": "<p>This listing is our third brine-flat field retreat and the first one specified properly. This listing sits in a seasonal operation, so it spends part of the year idle. Others may weigh it differently, but this listing suits us.</p>",
+      "author": "Marta Melle",
+      "date": "2026-07-21",
+      "rating": "4"
+    },
+    {
+      "review_id": "u2",
+      "title": "Sleeping berths at 9 berths, as listed",
+      "text": "Went through the whole brine-flat field retreat catalogue twice before this listing. Its sleeping berths reads 9 berths, and that is the whole reason it is here. No complaints beyond the sleeping berths of 9 berths, and no surprises either.",
+      "body_html": "<p>Went through the whole brine-flat field retreat catalogue twice before this listing. Its sleeping berths reads 9 berths, and that is the whole reason it is here. No complaints beyond the sleeping berths of 9 berths, and no surprises either.</p>",
+      "author": "Anneke Grieve",
+      "date": "2026-07-17",
+      "rating": "5"
+    },
+    {
+      "review_id": "u3",
+      "title": "Second time around with a brine-flat field retreat: this listing",
+      "text": "Shortlisted three brine-flat field retreat units and this listing was the one we kept. Our previous unit did the job; this listing does it without us watching it. This listing is still the right call for us.",
+      "body_html": "<p>Shortlisted three brine-flat field retreat units and this listing was the one we kept. Our previous unit did the job; this listing does it without us watching it. This listing is still the right call for us.</p>",
+      "author": "Nils Ilkka",
+      "date": "2026-07-13",
+      "rating": "5"
+    },
+    {
+      "review_id": "u4",
+      "title": "Getting this listing running",
+      "text": "Came to this listing on a recommendation and checked its brine-flat field retreat figures ourselves. Setting this listing up went smoothly once we stopped guessing and read the sheet. Worth knowing before you commit to this listing.",
+      "body_html": "<p>Came to this listing on a recommendation and checked its brine-flat field retreat figures ourselves. Setting this listing up went smoothly once we stopped guessing and read the sheet. Worth knowing before you commit to this listing.</p>",
+      "author": "Lise Vasilenko",
+      "date": "2026-07-12",
+      "rating": "4"
+    },
+    {
+      "review_id": "u5",
+      "title": "Brine-flat field retreat at 12 months",
+      "text": "Have had this listing in service long enough to say something useful about this brine-flat field retreat. We had a hard floor on open months; 12 months clears it. No complaints beyond the open months of 12 months, and no surprises either.",
+      "body_html": "<p>Have had this listing in service long enough to say something useful about this brine-flat field retreat. We had a hard floor on open months; 12 months clears it. No complaints beyond the open months of 12 months, and no surprises either.</p>",
+      "author": "Katrin Vance",
+      "date": "2026-07-04",
+      "rating": "5"
+    },
+    {
+      "review_id": "u6",
+      "title": "Where this listing falls short",
+      "text": "This listing was not the cheapest brine-flat field retreat we considered, and that was fine. The documentation with this listing is thin, and we worked out the rest ourselves. Take it as context rather than a complaint about this listing.",
+      "body_html": "<p>This listing was not the cheapest brine-flat field retreat we considered, and that was fine. The documentation with this listing is thin, and we worked out the rest ourselves. Take it as context rather than a complaint about this listing.</p>",
+      "author": "Ruben Lindqvist",
+      "date": "2026-06-26",
+      "rating": "3"
+    },
+    {
+      "review_id": "u7",
+      "title": "8 degrees Celsius was the requirement",
+      "text": "Bought this listing after a long comparison against the rest of this brine-flat field retreat shortlist. The figure that mattered was the indoor temperature: 8 degrees Celsius. No complaints beyond the indoor temperature of 8 degrees Celsius, and no surprises either.",
+      "body_html": "<p>Bought this listing after a long comparison against the rest of this brine-flat field retreat shortlist. The figure that mattered was the indoor temperature: 8 degrees Celsius. No complaints beyond the indoor temperature of 8 degrees Celsius, and no surprises either.</p>",
+      "author": "Sanna Halvard",
+      "date": "2026-06-17",
+      "rating": "5"
+    }
+  ]
+}

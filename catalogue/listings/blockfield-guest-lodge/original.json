@@ -1,0 +1,85 @@
+{
+  "category_id": "blockfield-guest-lodge",
+  "brand": "Estavel Vault 105",
+  "method": "Original",
+  "name": "Estavel Vault 105 Original",
+  "source_page_path": "/lodging-and-retreat-places/blockfield-guest-lodge/estavel-vault-105/original.html",
+  "source_html_sha256": "ef3561d0e4682c46f80d10d351a73589e9ff0a084a93817fe5e6fdf161c4a08e",
+  "price_display": "USD 334.77 per night",
+  "price_condition": "frozen +/-0.2%",
+  "specifications": {
+    "sleeping berths": "2 berths",
+    "indoor temperature": "6 degrees Celsius",
+    "stay minimum": "2 nights",
+    "distance to road": "20 kilometres",
+    "nightly rate": "334.77 dollars",
+    "open months": "5 months"
+  },
+  "description": "This listing is a blockfield guest lodge listed with sleeping berths 2 berths, indoor temperature 6 degrees Celsius, stay minimum 2 nights. Its remaining stated figures are distance to road 20 kilometres, nightly rate set after acceptance, open months 5 months. Every one of them is quoted from the same six axes the other listings in this category are described on.",
+  "description_html": "<p>This listing is a blockfield guest lodge listed with sleeping berths 2 berths, indoor temperature 6 degrees Celsius, stay minimum 2 nights. Its remaining stated figures are distance to road 20 kilometres, nightly rate set after acceptance, open months 5 months. Every one of them is quoted from the same six axes the other listings in this category are described on.</p>",
+  "reviews": [
+    {
+      "review_id": "u1",
+      "title": "Still happy with this listing",
+      "text": "We looked at most of the blockfield guest lodge listings before settling on this listing. Nothing on this listing has drifted since we commissioned it. Others may weigh it differently, but this listing suits us.",
+      "body_html": "<p>We looked at most of the blockfield guest lodge listings before settling on this listing. Nothing on this listing has drifted since we commissioned it. Others may weigh it differently, but this listing suits us.</p>",
+      "author": "Sanna Ostrem",
+      "date": "2026-07-31",
+      "rating": "5"
+    },
+    {
+      "review_id": "u2",
+      "title": "Installation notes for this listing",
+      "text": "Second blockfield guest lodge we have run; this listing replaced an older one. We had this listing working before lunch, though the instructions did not help much. We would put another this listing in without much thought.",
+      "body_html": "<p>Second blockfield guest lodge we have run; this listing replaced an older one. We had this listing working before lunch, though the instructions did not help much. We would put another this listing in without much thought.</p>",
+      "author": "Halla Aalto",
+      "date": "2026-07-30",
+      "rating": "4"
+    },
+    {
+      "review_id": "u3",
+      "title": "Does what it says: distance to road 20 kilometres",
+      "text": "Replaced a much older blockfield guest lodge with this listing last season. Everything came down to distance to road, and 20 kilometres is what we needed. For a blockfield guest lodge at 20 kilometres this listing does what the listing says.",
+      "body_html": "<p>Replaced a much older blockfield guest lodge with this listing last season. Everything came down to distance to road, and 20 kilometres is what we needed. For a blockfield guest lodge at 20 kilometres this listing does what the listing says.</p>",
+      "author": "Ilva Melle",
+      "date": "2026-07-07",
+      "rating": "5"
+    },
+    {
+      "review_id": "u4",
+      "title": "How this listing fits what we actually do",
+      "text": "This listing is our third blockfield guest lodge and the first one specified properly. This listing sits in a seasonal operation, so it spends part of the year idle. This listing is still the right call for us.",
+      "body_html": "<p>This listing is our third blockfield guest lodge and the first one specified properly. This listing sits in a seasonal operation, so it spends part of the year idle. This listing is still the right call for us.</p>",
+      "author": "Bram Roost",
+      "date": "2026-07-04",
+      "rating": "4"
+    },
+    {
+      "review_id": "u5",
+      "title": "2 nights is the right stay minimum for us",
+      "text": "Bought this listing after a long comparison against the rest of this blockfield guest lodge shortlist. Its stay minimum reads 2 nights, and that is the whole reason it is here. The rest of this listing specification did not enter into the decision.",
+      "body_html": "<p>Bought this listing after a long comparison against the rest of this blockfield guest lodge shortlist. Its stay minimum reads 2 nights, and that is the whole reason it is here. The rest of this listing specification did not enter into the decision.</p>",
+      "author": "Petr Sarto",
+      "date": "2026-06-29",
+      "rating": "4"
+    },
+    {
+      "review_id": "u6",
+      "title": "6 degrees Celsius is the right indoor temperature for us",
+      "text": "Came to this listing on a recommendation and checked its blockfield guest lodge figures ourselves. On paper the indoor temperature is 6 degrees Celsius, and that matched the requirement exactly. On the other axes this listing sits where the rest of the blockfield guest lodge listings sit.",
+      "body_html": "<p>Came to this listing on a recommendation and checked its blockfield guest lodge figures ourselves. On paper the indoor temperature is 6 degrees Celsius, and that matched the requirement exactly. On the other axes this listing sits where the rest of the blockfield guest lodge listings sit.</p>",
+      "author": "Ruben Marreck",
+      "date": "2026-06-27",
+      "rating": "5"
+    },
+    {
+      "review_id": "u7",
+      "title": "Worth knowing before you order this listing",
+      "text": "Went through the whole blockfield guest lodge catalogue twice before this listing. Ordering spares for this listing took longer than we would like. Worth knowing before you commit to this listing.",
+      "body_html": "<p>Went through the whole blockfield guest lodge catalogue twice before this listing. Ordering spares for this listing took longer than we would like. Worth knowing before you commit to this listing.</p>",
+      "author": "Lise Grieve",
+      "date": "2026-06-19",
+      "rating": "3"
+    }
+  ]
+}

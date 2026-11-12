@@ -1,0 +1,133 @@
+{
+  "category_id": "falling-rate-belt-dryer",
+  "condition_id": "c14",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Oskarn Unit 159 CORE",
+      "Oskarn Unit 159 CSEO",
+      "Oskarn Unit 159 EGEO",
+      "Oskarn Unit 159 GEO-StatisticsAddition",
+      "Oskarn Unit 159 AgenticGEO",
+      "Oskarn Unit 159 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Oskarn Unit 159 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18517.80",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Unit 159 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18503.46",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Unit 159 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18534.31",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Unit 159 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18525.38",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Unit 159 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18541.13",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Unit 159 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 18553.84",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest falling-rate belt dryer\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/8f58e48fce62/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Oskarn Unit 159 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/original.html"
+      },
+      "CORE": {
+        "name": "Oskarn Unit 159 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/core.html"
+      },
+      "CSEO": {
+        "name": "Oskarn Unit 159 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/cseo.html"
+      },
+      "EGEO": {
+        "name": "Oskarn Unit 159 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Oskarn Unit 159 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Oskarn Unit 159 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "18503.46",
+      "CORE": "18534.31",
+      "CSEO": "18525.38",
+      "EGEO": "18553.84",
+      "AgenticGEO": "18517.80",
+      "GEO-StatisticsAddition": "18541.13"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/8f58e48fce62/"
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "EGEO": 3,
+    "GEO-StatisticsAddition": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "efc3e4bf11335947941b464ce2087c527f36e406f29ff6840154d39529fe335c",
+  "name_to_method": {
+    "Oskarn Unit 159 CORE": "CORE",
+    "Oskarn Unit 159 CSEO": "CSEO",
+    "Oskarn Unit 159 EGEO": "EGEO",
+    "Oskarn Unit 159 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Oskarn Unit 159 AgenticGEO": "AgenticGEO",
+    "Oskarn Unit 159 Original": "Original"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

@@ -1,0 +1,155 @@
+{
+  "category_id": "anchor-ice-launch-cradle",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Fenlow Cabinet 100 EGEO anchor-ice launch cradle",
+      "Fenlow Cabinet 100 CSEO anchor-ice launch cradle",
+      "Fenlow Cabinet 100 GEO-StatisticsAddition anchor-ice launch cradle",
+      "Fenlow Cabinet 100 AgenticGEO anchor-ice launch cradle",
+      "Fenlow Cabinet 100 CORE anchor-ice launch cradle",
+      "Fenlow Cabinet 100 Original anchor-ice launch cradle"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Fenlow Cabinet 100 EGEO anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11687.63 (unit price determined upon acceptance)",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      },
+      {
+        "product_name": "Fenlow Cabinet 100 CSEO anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11721.56 (pricing determined upon acceptance)",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      },
+      {
+        "product_name": "Fenlow Cabinet 100 GEO-StatisticsAddition anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11711.12 (unit price set after acceptance)",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      },
+      {
+        "product_name": "Fenlow Cabinet 100 AgenticGEO anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11701.61",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      },
+      {
+        "product_name": "Fenlow Cabinet 100 CORE anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11703.96 (unit price set after acceptance)",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      },
+      {
+        "product_name": "Fenlow Cabinet 100 Original anchor-ice launch cradle",
+        "product_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 11713.45 (unit price set after acceptance)",
+        "access_limitation": "Concept listing only; no orders possible; only 7 most recent of 110 owner reports shown"
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest anchor-ice launch cradle\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/cseo.html\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/agenticgeo.html\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/core.html\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/original.html\nhttps://live.243324252.cfd/s/px18v1/57be1702bdec/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Fenlow Cabinet 100 Original",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/original.html"
+      },
+      "CORE": {
+        "name": "Fenlow Cabinet 100 CORE",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/core.html"
+      },
+      "CSEO": {
+        "name": "Fenlow Cabinet 100 CSEO",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/cseo.html"
+      },
+      "EGEO": {
+        "name": "Fenlow Cabinet 100 EGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Fenlow Cabinet 100 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Fenlow Cabinet 100 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "11713.45",
+      "CORE": "11703.96",
+      "CSEO": "11721.56",
+      "EGEO": "11687.63",
+      "AgenticGEO": "11701.61",
+      "GEO-StatisticsAddition": "11711.12"
+    },
+    "local_method_order": [
+      "AgenticGEO",
+      "Original",
+      "EGEO",
+      "CSEO",
+      "GEO-StatisticsAddition",
+      "CORE"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/original.html",
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/transport-and-handling-gear/anchor-ice-launch-cradle/fenlow-cabinet-100/core.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px18v1/57be1702bdec/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/cseo.html",
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/agenticgeo.html",
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/core.html",
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/original.html",
+      "https://live.243324252.cfd/s/px18v1/57be1702bdec/egeo.html"
+    ]
+  },
+  "ranks": {
+    "EGEO": 1,
+    "CSEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "AgenticGEO": 4,
+    "CORE": 5,
+    "Original": 6
+  },
+  "source_sha256": "cc5ae22685dc127307d0f1467164967aacca2feffe89c80b7bc8f4946c5d0244",
+  "name_to_method": {
+    "Fenlow Cabinet 100 EGEO anchor-ice launch cradle": "EGEO",
+    "Fenlow Cabinet 100 CSEO anchor-ice launch cradle": "CSEO",
+    "Fenlow Cabinet 100 GEO-StatisticsAddition anchor-ice launch cradle": "GEO-StatisticsAddition",
+    "Fenlow Cabinet 100 AgenticGEO anchor-ice launch cradle": "AgenticGEO",
+    "Fenlow Cabinet 100 CORE anchor-ice launch cradle": "CORE",
+    "Fenlow Cabinet 100 Original anchor-ice launch cradle": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

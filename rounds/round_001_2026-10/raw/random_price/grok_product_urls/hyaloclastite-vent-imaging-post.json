@@ -1,0 +1,155 @@
+{
+  "category_id": "hyaloclastite-vent-imaging-post",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Sundrel Unit 117 CORE hyaloclastite-vent imaging post",
+      "Sundrel Unit 117 EGEO hyaloclastite-vent imaging post",
+      "Sundrel Unit 117 AgenticGEO hyaloclastite-vent imaging post",
+      "Sundrel Unit 117 CSEO hyaloclastite-vent imaging post",
+      "Sundrel Unit 117 GEO-StatisticsAddition hyaloclastite-vent imaging post",
+      "Sundrel Unit 117 Original hyaloclastite-vent imaging post"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Sundrel Unit 117 GEO-StatisticsAddition hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 974.21 per person",
+        "access_limitation": "Concept listing; no order possible; feedback illustrative and written for the listing."
+      },
+      {
+        "product_name": "Sundrel Unit 117 CSEO hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 976.50 per person",
+        "access_limitation": "Concept listing; no order possible; showing 7 most recent of 107 owner reports; feedback illustrative."
+      },
+      {
+        "product_name": "Sundrel Unit 117 CORE hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 977.69 per person",
+        "access_limitation": "Concept listing; no order possible; showing 7 most recent of 107 owner reports; feedback illustrative."
+      },
+      {
+        "product_name": "Sundrel Unit 117 Original hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 976.93 per person",
+        "access_limitation": "Concept listing; no order possible; showing 7 most recent of 107 owner reports; feedback illustrative."
+      },
+      {
+        "product_name": "Sundrel Unit 117 AgenticGEO hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 975.55 per person",
+        "access_limitation": "Concept listing; no order possible; showing 7 most recent of 107 owner reports; feedback illustrative."
+      },
+      {
+        "product_name": "Sundrel Unit 117 EGEO hyaloclastite-vent imaging post",
+        "product_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 977.28 per person",
+        "access_limitation": "Concept listing; no order possible; fictional products and reviews in synthetic catalogue; feedback illustrative."
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest hyaloclastite-vent imaging post\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/cseo.html\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/core.html\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/original.html\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/bf96f6ef154f/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Sundrel Unit 117 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/original.html"
+      },
+      "CORE": {
+        "name": "Sundrel Unit 117 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/core.html"
+      },
+      "CSEO": {
+        "name": "Sundrel Unit 117 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/cseo.html"
+      },
+      "EGEO": {
+        "name": "Sundrel Unit 117 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Sundrel Unit 117 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Sundrel Unit 117 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "976.93",
+      "CORE": "977.69",
+      "CSEO": "976.50",
+      "EGEO": "977.28",
+      "AgenticGEO": "975.55",
+      "GEO-StatisticsAddition": "974.21"
+    },
+    "local_method_order": [
+      "CORE",
+      "AgenticGEO",
+      "Original",
+      "GEO-StatisticsAddition",
+      "EGEO",
+      "CSEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/core.html",
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/original.html",
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/embedded-observation-stations/hyaloclastite-vent-imaging-post/sundrel-unit-117/cseo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/core.html",
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/original.html",
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/bf96f6ef154f/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "AgenticGEO": 3,
+    "CSEO": 4,
+    "GEO-StatisticsAddition": 5,
+    "Original": 6
+  },
+  "source_sha256": "4aeb374daa6c128edcf2e9d9dc66e5aca848e50729d71b8cab213b1126c9743b",
+  "name_to_method": {
+    "Sundrel Unit 117 CORE hyaloclastite-vent imaging post": "CORE",
+    "Sundrel Unit 117 EGEO hyaloclastite-vent imaging post": "EGEO",
+    "Sundrel Unit 117 AgenticGEO hyaloclastite-vent imaging post": "AgenticGEO",
+    "Sundrel Unit 117 CSEO hyaloclastite-vent imaging post": "CSEO",
+    "Sundrel Unit 117 GEO-StatisticsAddition hyaloclastite-vent imaging post": "GEO-StatisticsAddition",
+    "Sundrel Unit 117 Original hyaloclastite-vent imaging post": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

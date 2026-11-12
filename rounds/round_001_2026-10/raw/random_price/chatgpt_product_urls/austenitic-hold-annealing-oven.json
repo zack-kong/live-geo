@@ -1,0 +1,139 @@
+{
+  "category_id": "austenitic-hold-annealing-oven",
+  "condition_id": "c06",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Ellmarch Frame 16 AgenticGEO",
+      "Ellmarch Frame 16 GEO-StatisticsAddition",
+      "Ellmarch Frame 16 CORE",
+      "Ellmarch Frame 16 Original",
+      "Ellmarch Frame 16 EGEO",
+      "Ellmarch Frame 16 CSEO"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Ellmarch Frame 16 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9427.70; displayed as a unit price, with pricing stated as determined upon acceptance. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Frame 16 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9423.76; displayed as a unit price, with customizable pricing determined upon acceptance. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Frame 16 Original",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9417.92; displayed as a unit price, stated as set after acceptance. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Frame 16 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9404.96; displayed as a unit price, stated as set after acceptance. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Frame 16 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9395.61; displayed as a unit price, with pricing established upon confirmation of order. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Frame 16 CORE",
+        "product_url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 9411.61; displayed as a unit price, stated as set after acceptance. No separate fees displayed. Concept listing; no order can be placed.",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest austenitic-hold annealing oven\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/cseo.html\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/egeo.html\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/original.html\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/agenticgeo.html\nhttps://live.243324252.cfd/s/px18v1/47da828bbc74/core.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Ellmarch Frame 16 Original",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/original.html"
+      },
+      "CORE": {
+        "name": "Ellmarch Frame 16 CORE",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/core.html"
+      },
+      "CSEO": {
+        "name": "Ellmarch Frame 16 CSEO",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/cseo.html"
+      },
+      "EGEO": {
+        "name": "Ellmarch Frame 16 EGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Ellmarch Frame 16 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Ellmarch Frame 16 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px18v1/47da828bbc74/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "9417.92",
+      "CORE": "9411.61",
+      "CSEO": "9427.70",
+      "EGEO": "9423.76",
+      "AgenticGEO": "9395.61",
+      "GEO-StatisticsAddition": "9404.96"
+    },
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/cseo.html",
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/egeo.html",
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/original.html",
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/agenticgeo.html",
+      "https://live.243324252.cfd/s/px18v1/47da828bbc74/core.html"
+    ]
+  },
+  "ranks": {
+    "AgenticGEO": 1,
+    "GEO-StatisticsAddition": 2,
+    "CORE": 3,
+    "Original": 4,
+    "EGEO": 5,
+    "CSEO": 6
+  },
+  "source_sha256": "66df6715597b3e88bf3d889dbe91641a9882636805324fe7e6a9b0830cf5fb07",
+  "name_to_method": {
+    "Ellmarch Frame 16 AgenticGEO": "AgenticGEO",
+    "Ellmarch Frame 16 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Ellmarch Frame 16 CORE": "CORE",
+    "Ellmarch Frame 16 Original": "Original",
+    "Ellmarch Frame 16 EGEO": "EGEO",
+    "Ellmarch Frame 16 CSEO": "CSEO"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "temporary": true
+  },
+  "condition_settings": "settings.json"
+}

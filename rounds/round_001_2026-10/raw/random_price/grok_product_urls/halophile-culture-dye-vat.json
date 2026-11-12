@@ -1,0 +1,155 @@
+{
+  "category_id": "halophile-culture-dye-vat",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Turlach Post 110 CORE halophile-culture dye vat",
+      "Turlach Post 110 CSEO halophile-culture dye vat",
+      "Turlach Post 110 AgenticGEO halophile-culture dye vat",
+      "Turlach Post 110 EGEO halophile-culture dye vat",
+      "Turlach Post 110 GEO-StatisticsAddition halophile-culture dye vat",
+      "Turlach Post 110 Original halophile-culture dye vat"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Turlach Post 110 GEO-StatisticsAddition halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6315.78 (unit price; no fees mentioned)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; more comments exist but are not shown."
+      },
+      {
+        "product_name": "Turlach Post 110 EGEO halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6321.53 (unit price; no fees mentioned; concept listing, no order can be placed)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; more comments exist but are not shown."
+      },
+      {
+        "product_name": "Turlach Post 110 AgenticGEO halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "6317.55 dollars (unit price; no fees mentioned)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; more comments exist but are not shown."
+      },
+      {
+        "product_name": "Turlach Post 110 CORE halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6319.02 (unit price; concept listing, no order can be placed)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; feedback illustrative and written for the listing; more comments exist but are not shown."
+      },
+      {
+        "product_name": "Turlach Post 110 Original halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6331.82 (unit price; no fees mentioned)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; more comments exist but are not shown."
+      },
+      {
+        "product_name": "Turlach Post 110 CSEO halophile-culture dye vat",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6311.69 (unit price; no fees mentioned)",
+        "access_limitation": "Showing the 7 most recent of 126 owner reports; feedback illustrative and written for the listing; more comments exist but are not shown."
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest halophile-culture dye vat\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/egeo.html\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/core.html\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/original.html\nhttps://live.243324252.cfd/s/px80v1/cd80a9bd4533/cseo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Turlach Post 110 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/original.html"
+      },
+      "CORE": {
+        "name": "Turlach Post 110 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/core.html"
+      },
+      "CSEO": {
+        "name": "Turlach Post 110 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/cseo.html"
+      },
+      "EGEO": {
+        "name": "Turlach Post 110 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Turlach Post 110 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Turlach Post 110 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "6331.82",
+      "CORE": "6319.02",
+      "CSEO": "6311.69",
+      "EGEO": "6321.53",
+      "AgenticGEO": "6317.55",
+      "GEO-StatisticsAddition": "6315.78"
+    },
+    "local_method_order": [
+      "CORE",
+      "GEO-StatisticsAddition",
+      "EGEO",
+      "Original",
+      "CSEO",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/core.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/original.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/halophile-culture-dye-vat/turlach-post-110/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/core.html",
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/original.html",
+      "https://live.243324252.cfd/s/px80v1/cd80a9bd4533/cseo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "AgenticGEO": 3,
+    "EGEO": 4,
+    "GEO-StatisticsAddition": 5,
+    "Original": 6
+  },
+  "source_sha256": "207827221ca1a341c2fa195bba9a5aac3c68f7d76af3a454bd22710ea9cd53be",
+  "name_to_method": {
+    "Turlach Post 110 CORE halophile-culture dye vat": "CORE",
+    "Turlach Post 110 CSEO halophile-culture dye vat": "CSEO",
+    "Turlach Post 110 AgenticGEO halophile-culture dye vat": "AgenticGEO",
+    "Turlach Post 110 EGEO halophile-culture dye vat": "EGEO",
+    "Turlach Post 110 GEO-StatisticsAddition halophile-culture dye vat": "GEO-StatisticsAddition",
+    "Turlach Post 110 Original halophile-culture dye vat": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

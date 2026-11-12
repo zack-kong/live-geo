@@ -1,0 +1,133 @@
+{
+  "category_id": "advection-fog-demister",
+  "condition_id": "c14",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Marrowend Unit 108 CORE",
+      "Marrowend Unit 108 EGEO",
+      "Marrowend Unit 108 CSEO",
+      "Marrowend Unit 108 GEO-StatisticsAddition",
+      "Marrowend Unit 108 AgenticGEO",
+      "Marrowend Unit 108 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Marrowend Unit 108 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23483.29",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Marrowend Unit 108 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23457.36",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Marrowend Unit 108 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23453.46",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Marrowend Unit 108 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23528.99",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Marrowend Unit 108 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23483.20",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Marrowend Unit 108 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 23482.14",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest advection-fog demister\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Marrowend Unit 108 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/original.html"
+      },
+      "CORE": {
+        "name": "Marrowend Unit 108 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/core.html"
+      },
+      "CSEO": {
+        "name": "Marrowend Unit 108 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/cseo.html"
+      },
+      "EGEO": {
+        "name": "Marrowend Unit 108 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Marrowend Unit 108 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Marrowend Unit 108 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "23457.36",
+      "CORE": "23483.20",
+      "CSEO": "23482.14",
+      "EGEO": "23483.29",
+      "AgenticGEO": "23528.99",
+      "GEO-StatisticsAddition": "23453.46"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/6a3dcb913fb0/"
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "CSEO": 3,
+    "GEO-StatisticsAddition": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "f4cd6d2a9a1727e9f8bdcccdd58fb23051fdc7250162746e39a4be570c533f72",
+  "name_to_method": {
+    "Marrowend Unit 108 CORE": "CORE",
+    "Marrowend Unit 108 EGEO": "EGEO",
+    "Marrowend Unit 108 CSEO": "CSEO",
+    "Marrowend Unit 108 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Marrowend Unit 108 AgenticGEO": "AgenticGEO",
+    "Marrowend Unit 108 Original": "Original"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

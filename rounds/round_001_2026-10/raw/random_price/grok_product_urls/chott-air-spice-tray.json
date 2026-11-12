@@ -1,0 +1,155 @@
+{
+  "category_id": "chott-air-spice-tray",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Turlach Unit 181 CSEO chott-air spice tray",
+      "Turlach Unit 181 GEO-StatisticsAddition chott-air spice tray",
+      "Turlach Unit 181 EGEO chott-air spice tray",
+      "Turlach Unit 181 AgenticGEO chott-air spice tray",
+      "Turlach Unit 181 CORE chott-air spice tray",
+      "Turlach Unit 181 Original chott-air spice tray"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Turlach Unit 181 Original chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24828.06, unit price set after acceptance",
+        "access_limitation": "Concept listing. No order can be placed. Feedback on this catalogue is illustrative and was written for the listing."
+      },
+      {
+        "product_name": "Turlach Unit 181 CSEO chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24739.67, unit price is determined upon acceptance",
+        "access_limitation": "Concept listing. No order can be placed."
+      },
+      {
+        "product_name": "Turlach Unit 181 CORE chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24798.30, unit price set after acceptance",
+        "access_limitation": "Concept listing. No order can be placed. Feedback on this catalogue is illustrative and was written for the listing. Showing the 7 most recent of 94 owner reports."
+      },
+      {
+        "product_name": "Turlach Unit 181 GEO-StatisticsAddition chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24818.05, unit price set after acceptance",
+        "access_limitation": "Concept listing. No order can be placed. Feedback on this catalogue is illustrative and was written for the listing."
+      },
+      {
+        "product_name": "Turlach Unit 181 EGEO chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24802.66, unit price is determined upon acceptance",
+        "access_limitation": "Concept listing. No order can be placed. LIVE-GEO / RESEARCH CATALOGUE Synthetic research catalogue · Fictional products, specifications and owner reviews. No commercial offers."
+      },
+      {
+        "product_name": "Turlach Unit 181 AgenticGEO chott-air spice tray",
+        "product_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 24792.82, unit price 24792.82 dollars",
+        "access_limitation": "Concept listing. No order can be placed. Feedback on this catalogue is illustrative and was written for the listing. Showing the 7 most recent of 94 owner reports."
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest chott-air spice tray\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/original.html\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/cseo.html\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/core.html\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/egeo.html\nhttps://live.243324252.cfd/s/px80v1/3269178208ee/agenticgeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Turlach Unit 181 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/original.html"
+      },
+      "CORE": {
+        "name": "Turlach Unit 181 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/core.html"
+      },
+      "CSEO": {
+        "name": "Turlach Unit 181 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/cseo.html"
+      },
+      "EGEO": {
+        "name": "Turlach Unit 181 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Turlach Unit 181 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Turlach Unit 181 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/3269178208ee/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "24828.06",
+      "CORE": "24798.30",
+      "CSEO": "24739.67",
+      "EGEO": "24802.66",
+      "AgenticGEO": "24792.82",
+      "GEO-StatisticsAddition": "24818.05"
+    },
+    "local_method_order": [
+      "GEO-StatisticsAddition",
+      "EGEO",
+      "CSEO",
+      "Original",
+      "CORE",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/original.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/core.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/chott-air-spice-tray/turlach-unit-181/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/3269178208ee/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/original.html",
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/core.html",
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/3269178208ee/agenticgeo.html"
+    ]
+  },
+  "ranks": {
+    "CSEO": 1,
+    "GEO-StatisticsAddition": 2,
+    "EGEO": 3,
+    "AgenticGEO": 4,
+    "CORE": 5,
+    "Original": 6
+  },
+  "source_sha256": "230a8be17206bfc9c3b2c59107b8ca87a244f870919d1c56da8af7d8a2a45470",
+  "name_to_method": {
+    "Turlach Unit 181 CSEO chott-air spice tray": "CSEO",
+    "Turlach Unit 181 GEO-StatisticsAddition chott-air spice tray": "GEO-StatisticsAddition",
+    "Turlach Unit 181 EGEO chott-air spice tray": "EGEO",
+    "Turlach Unit 181 AgenticGEO chott-air spice tray": "AgenticGEO",
+    "Turlach Unit 181 CORE chott-air spice tray": "CORE",
+    "Turlach Unit 181 Original chott-air spice tray": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

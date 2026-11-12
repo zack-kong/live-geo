@@ -1,0 +1,2 @@
+# Preserve frozen artifact bytes and their checksums on every platform.
+* -text

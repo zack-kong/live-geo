@@ -1,0 +1,1122 @@
+[
+  {
+    "category_id": "actinic-shielded-print-cabinet",
+    "name": "actinic-shielded print cabinet",
+    "family": "Archival and conservation equipment",
+    "brand": "Fenlow Vault 73",
+    "listings": [
+      "catalogue/listings/actinic-shielded-print-cabinet/egeo.json",
+      "catalogue/listings/actinic-shielded-print-cabinet/agenticgeo.json",
+      "catalogue/listings/actinic-shielded-print-cabinet/geo-statisticsaddition.json",
+      "catalogue/listings/actinic-shielded-print-cabinet/original.json",
+      "catalogue/listings/actinic-shielded-print-cabinet/core.json",
+      "catalogue/listings/actinic-shielded-print-cabinet/cseo.json"
+    ]
+  },
+  {
+    "category_id": "active-layer-thaw-bed-planter",
+    "name": "active-layer thaw-bed planter",
+    "family": "Horticulture and propagation systems",
+    "brand": "Tirnach Vault 152",
+    "listings": [
+      "catalogue/listings/active-layer-thaw-bed-planter/original.json",
+      "catalogue/listings/active-layer-thaw-bed-planter/agenticgeo.json",
+      "catalogue/listings/active-layer-thaw-bed-planter/core.json",
+      "catalogue/listings/active-layer-thaw-bed-planter/geo-statisticsaddition.json",
+      "catalogue/listings/active-layer-thaw-bed-planter/cseo.json",
+      "catalogue/listings/active-layer-thaw-bed-planter/egeo.json"
+    ]
+  },
+  {
+    "category_id": "adit-entry-survey-chamber",
+    "name": "adit-entry survey chamber",
+    "family": "Subterranean workspaces",
+    "brand": "Drovane Vault 118",
+    "listings": [
+      "catalogue/listings/adit-entry-survey-chamber/core.json",
+      "catalogue/listings/adit-entry-survey-chamber/cseo.json",
+      "catalogue/listings/adit-entry-survey-chamber/geo-statisticsaddition.json",
+      "catalogue/listings/adit-entry-survey-chamber/agenticgeo.json",
+      "catalogue/listings/adit-entry-survey-chamber/original.json",
+      "catalogue/listings/adit-entry-survey-chamber/egeo.json"
+    ]
+  },
+  {
+    "category_id": "advection-fog-demister",
+    "name": "advection-fog demister",
+    "family": "Air handling and filtration",
+    "brand": "Marrowend Unit 108",
+    "listings": [
+      "catalogue/listings/advection-fog-demister/original.json",
+      "catalogue/listings/advection-fog-demister/geo-statisticsaddition.json",
+      "catalogue/listings/advection-fog-demister/cseo.json",
+      "catalogue/listings/advection-fog-demister/core.json",
+      "catalogue/listings/advection-fog-demister/egeo.json",
+      "catalogue/listings/advection-fog-demister/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "aeolian-sand-culture-tray",
+    "name": "aeolian-sand culture tray",
+    "family": "Horticulture and propagation systems",
+    "brand": "Sundrel Vault 57",
+    "listings": [
+      "catalogue/listings/aeolian-sand-culture-tray/egeo.json",
+      "catalogue/listings/aeolian-sand-culture-tray/original.json",
+      "catalogue/listings/aeolian-sand-culture-tray/cseo.json",
+      "catalogue/listings/aeolian-sand-culture-tray/core.json",
+      "catalogue/listings/aeolian-sand-culture-tray/agenticgeo.json",
+      "catalogue/listings/aeolian-sand-culture-tray/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "aeolian-sealed-dripper",
+    "name": "aeolian-sealed dripper",
+    "family": "Brewing and beverage implements",
+    "brand": "Turlach Station 166",
+    "listings": [
+      "catalogue/listings/aeolian-sealed-dripper/cseo.json",
+      "catalogue/listings/aeolian-sealed-dripper/original.json",
+      "catalogue/listings/aeolian-sealed-dripper/agenticgeo.json",
+      "catalogue/listings/aeolian-sealed-dripper/egeo.json",
+      "catalogue/listings/aeolian-sealed-dripper/geo-statisticsaddition.json",
+      "catalogue/listings/aeolian-sealed-dripper/core.json"
+    ]
+  },
+  {
+    "category_id": "ambient-floor-audition-vault",
+    "name": "ambient-floor audition vault",
+    "family": "Acoustic spaces",
+    "brand": "Nordreth Cabinet 160",
+    "listings": [
+      "catalogue/listings/ambient-floor-audition-vault/original.json",
+      "catalogue/listings/ambient-floor-audition-vault/geo-statisticsaddition.json",
+      "catalogue/listings/ambient-floor-audition-vault/cseo.json",
+      "catalogue/listings/ambient-floor-audition-vault/egeo.json",
+      "catalogue/listings/ambient-floor-audition-vault/agenticgeo.json",
+      "catalogue/listings/ambient-floor-audition-vault/core.json"
+    ]
+  },
+  {
+    "category_id": "anchor-ice-launch-cradle",
+    "name": "anchor-ice launch cradle",
+    "family": "Transport and handling gear",
+    "brand": "Fenlow Cabinet 100",
+    "listings": [
+      "catalogue/listings/anchor-ice-launch-cradle/core.json",
+      "catalogue/listings/anchor-ice-launch-cradle/geo-statisticsaddition.json",
+      "catalogue/listings/anchor-ice-launch-cradle/agenticgeo.json",
+      "catalogue/listings/anchor-ice-launch-cradle/egeo.json",
+      "catalogue/listings/anchor-ice-launch-cradle/original.json",
+      "catalogue/listings/anchor-ice-launch-cradle/cseo.json"
+    ]
+  },
+  {
+    "category_id": "andosol-mix-rooting-box",
+    "name": "andosol-mix rooting box",
+    "family": "Horticulture and propagation systems",
+    "brand": "Drovane Chamber 146",
+    "listings": [
+      "catalogue/listings/andosol-mix-rooting-box/agenticgeo.json",
+      "catalogue/listings/andosol-mix-rooting-box/egeo.json",
+      "catalogue/listings/andosol-mix-rooting-box/geo-statisticsaddition.json",
+      "catalogue/listings/andosol-mix-rooting-box/original.json",
+      "catalogue/listings/andosol-mix-rooting-box/cseo.json",
+      "catalogue/listings/andosol-mix-rooting-box/core.json"
+    ]
+  },
+  {
+    "category_id": "anorthosite-block-quench-pit",
+    "name": "anorthosite-block quench pit",
+    "family": "Kilns and thermal processing furnaces",
+    "brand": "Sundrel Post 188",
+    "listings": [
+      "catalogue/listings/anorthosite-block-quench-pit/geo-statisticsaddition.json",
+      "catalogue/listings/anorthosite-block-quench-pit/core.json",
+      "catalogue/listings/anorthosite-block-quench-pit/egeo.json",
+      "catalogue/listings/anorthosite-block-quench-pit/original.json",
+      "catalogue/listings/anorthosite-block-quench-pit/cseo.json",
+      "catalogue/listings/anorthosite-block-quench-pit/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "anoxic-parchment-cabinet",
+    "name": "anoxic parchment cabinet",
+    "family": "Archival and conservation equipment",
+    "brand": "Estavel Station 58",
+    "listings": [
+      "catalogue/listings/anoxic-parchment-cabinet/agenticgeo.json",
+      "catalogue/listings/anoxic-parchment-cabinet/original.json",
+      "catalogue/listings/anoxic-parchment-cabinet/geo-statisticsaddition.json",
+      "catalogue/listings/anoxic-parchment-cabinet/core.json",
+      "catalogue/listings/anoxic-parchment-cabinet/cseo.json",
+      "catalogue/listings/anoxic-parchment-cabinet/egeo.json"
+    ]
+  },
+  {
+    "category_id": "anoxic-sourdough-crock",
+    "name": "anoxic sourdough crock",
+    "family": "Fermentation and brewing vessels",
+    "brand": "Drovane Works 11",
+    "listings": [
+      "catalogue/listings/anoxic-sourdough-crock/geo-statisticsaddition.json",
+      "catalogue/listings/anoxic-sourdough-crock/cseo.json",
+      "catalogue/listings/anoxic-sourdough-crock/core.json",
+      "catalogue/listings/anoxic-sourdough-crock/original.json",
+      "catalogue/listings/anoxic-sourdough-crock/egeo.json",
+      "catalogue/listings/anoxic-sourdough-crock/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "ashfall-shielded-viewing-deck",
+    "name": "ashfall-shielded viewing deck",
+    "family": "Elevated lookout decks",
+    "brand": "Nordreth Hall 27",
+    "listings": [
+      "catalogue/listings/ashfall-shielded-viewing-deck/core.json",
+      "catalogue/listings/ashfall-shielded-viewing-deck/egeo.json",
+      "catalogue/listings/ashfall-shielded-viewing-deck/original.json",
+      "catalogue/listings/ashfall-shielded-viewing-deck/agenticgeo.json",
+      "catalogue/listings/ashfall-shielded-viewing-deck/cseo.json",
+      "catalogue/listings/ashfall-shielded-viewing-deck/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "aufeis-jacketed-cheese-vault",
+    "name": "aufeis-jacketed cheese vault",
+    "family": "Cold and cold-chain storage",
+    "brand": "Hoskva Works 38",
+    "listings": [
+      "catalogue/listings/aufeis-jacketed-cheese-vault/original.json",
+      "catalogue/listings/aufeis-jacketed-cheese-vault/egeo.json",
+      "catalogue/listings/aufeis-jacketed-cheese-vault/agenticgeo.json",
+      "catalogue/listings/aufeis-jacketed-cheese-vault/core.json",
+      "catalogue/listings/aufeis-jacketed-cheese-vault/geo-statisticsaddition.json",
+      "catalogue/listings/aufeis-jacketed-cheese-vault/cseo.json"
+    ]
+  },
+  {
+    "category_id": "austenitic-hold-annealing-oven",
+    "name": "austenitic-hold annealing oven",
+    "family": "Kilns and thermal processing furnaces",
+    "brand": "Ellmarch Frame 16",
+    "listings": [
+      "catalogue/listings/austenitic-hold-annealing-oven/cseo.json",
+      "catalogue/listings/austenitic-hold-annealing-oven/egeo.json",
+      "catalogue/listings/austenitic-hold-annealing-oven/geo-statisticsaddition.json",
+      "catalogue/listings/austenitic-hold-annealing-oven/original.json",
+      "catalogue/listings/austenitic-hold-annealing-oven/core.json",
+      "catalogue/listings/austenitic-hold-annealing-oven/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "barophilic-pressure-vat",
+    "name": "barophilic pressure vat",
+    "family": "Fermentation and brewing vessels",
+    "brand": "Yolvex Frame 41",
+    "listings": [
+      "catalogue/listings/barophilic-pressure-vat/cseo.json",
+      "catalogue/listings/barophilic-pressure-vat/agenticgeo.json",
+      "catalogue/listings/barophilic-pressure-vat/original.json",
+      "catalogue/listings/barophilic-pressure-vat/core.json",
+      "catalogue/listings/barophilic-pressure-vat/geo-statisticsaddition.json",
+      "catalogue/listings/barophilic-pressure-vat/egeo.json"
+    ]
+  },
+  {
+    "category_id": "basalt-bed-kettle",
+    "name": "basalt-bed kettle",
+    "family": "Brewing and beverage implements",
+    "brand": "Estavel Works 121",
+    "listings": [
+      "catalogue/listings/basalt-bed-kettle/geo-statisticsaddition.json",
+      "catalogue/listings/basalt-bed-kettle/cseo.json",
+      "catalogue/listings/basalt-bed-kettle/egeo.json",
+      "catalogue/listings/basalt-bed-kettle/agenticgeo.json",
+      "catalogue/listings/basalt-bed-kettle/core.json",
+      "catalogue/listings/basalt-bed-kettle/original.json"
+    ]
+  },
+  {
+    "category_id": "benthic-range-pressure-calibrator",
+    "name": "benthic-range pressure calibrator",
+    "family": "Metrology and calibration instruments",
+    "brand": "Sundrel Post 28",
+    "listings": [
+      "catalogue/listings/benthic-range-pressure-calibrator/egeo.json",
+      "catalogue/listings/benthic-range-pressure-calibrator/cseo.json",
+      "catalogue/listings/benthic-range-pressure-calibrator/agenticgeo.json",
+      "catalogue/listings/benthic-range-pressure-calibrator/geo-statisticsaddition.json",
+      "catalogue/listings/benthic-range-pressure-calibrator/original.json",
+      "catalogue/listings/benthic-range-pressure-calibrator/core.json"
+    ]
+  },
+  {
+    "category_id": "blockfield-guest-lodge",
+    "name": "blockfield guest lodge",
+    "family": "Lodging and retreat places",
+    "brand": "Estavel Vault 105",
+    "listings": [
+      "catalogue/listings/blockfield-guest-lodge/core.json",
+      "catalogue/listings/blockfield-guest-lodge/egeo.json",
+      "catalogue/listings/blockfield-guest-lodge/cseo.json",
+      "catalogue/listings/blockfield-guest-lodge/original.json",
+      "catalogue/listings/blockfield-guest-lodge/geo-statisticsaddition.json",
+      "catalogue/listings/blockfield-guest-lodge/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "bora-rated-cliff-walkway",
+    "name": "bora-rated cliff walkway",
+    "family": "Elevated lookout decks",
+    "brand": "Yolvex Vault 181",
+    "listings": [
+      "catalogue/listings/bora-rated-cliff-walkway/original.json",
+      "catalogue/listings/bora-rated-cliff-walkway/geo-statisticsaddition.json",
+      "catalogue/listings/bora-rated-cliff-walkway/cseo.json",
+      "catalogue/listings/bora-rated-cliff-walkway/core.json",
+      "catalogue/listings/bora-rated-cliff-walkway/egeo.json",
+      "catalogue/listings/bora-rated-cliff-walkway/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "brine-flat-field-retreat",
+    "name": "brine-flat field retreat",
+    "family": "Lodging and retreat places",
+    "brand": "Oskarn Hall 47",
+    "listings": [
+      "catalogue/listings/brine-flat-field-retreat/egeo.json",
+      "catalogue/listings/brine-flat-field-retreat/original.json",
+      "catalogue/listings/brine-flat-field-retreat/geo-statisticsaddition.json",
+      "catalogue/listings/brine-flat-field-retreat/cseo.json",
+      "catalogue/listings/brine-flat-field-retreat/core.json",
+      "catalogue/listings/brine-flat-field-retreat/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "brine-mist-fogponic-rack",
+    "name": "brine-mist fogponic rack",
+    "family": "Horticulture and propagation systems",
+    "brand": "Sundrel Frame 13",
+    "listings": [
+      "catalogue/listings/brine-mist-fogponic-rack/agenticgeo.json",
+      "catalogue/listings/brine-mist-fogponic-rack/geo-statisticsaddition.json",
+      "catalogue/listings/brine-mist-fogponic-rack/original.json",
+      "catalogue/listings/brine-mist-fogponic-rack/egeo.json",
+      "catalogue/listings/brine-mist-fogponic-rack/core.json",
+      "catalogue/listings/brine-mist-fogponic-rack/cseo.json"
+    ]
+  },
+  {
+    "category_id": "caliche-sealed-pottery-vault",
+    "name": "caliche-sealed pottery vault",
+    "family": "Archival and conservation equipment",
+    "brand": "Oskarn Station 134",
+    "listings": [
+      "catalogue/listings/caliche-sealed-pottery-vault/agenticgeo.json",
+      "catalogue/listings/caliche-sealed-pottery-vault/cseo.json",
+      "catalogue/listings/caliche-sealed-pottery-vault/egeo.json",
+      "catalogue/listings/caliche-sealed-pottery-vault/original.json",
+      "catalogue/listings/caliche-sealed-pottery-vault/core.json",
+      "catalogue/listings/caliche-sealed-pottery-vault/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "chott-air-spice-tray",
+    "name": "chott-air spice tray",
+    "family": "Drying and dehydration equipment",
+    "brand": "Turlach Unit 181",
+    "listings": [
+      "catalogue/listings/chott-air-spice-tray/original.json",
+      "catalogue/listings/chott-air-spice-tray/core.json",
+      "catalogue/listings/chott-air-spice-tray/egeo.json",
+      "catalogue/listings/chott-air-spice-tray/cseo.json",
+      "catalogue/listings/chott-air-spice-tray/agenticgeo.json",
+      "catalogue/listings/chott-air-spice-tray/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "clathrate-cooled-spirits-hold",
+    "name": "clathrate-cooled spirits hold",
+    "family": "Cold and cold-chain storage",
+    "brand": "Oskarn Frame 139",
+    "listings": [
+      "catalogue/listings/clathrate-cooled-spirits-hold/geo-statisticsaddition.json",
+      "catalogue/listings/clathrate-cooled-spirits-hold/core.json",
+      "catalogue/listings/clathrate-cooled-spirits-hold/egeo.json",
+      "catalogue/listings/clathrate-cooled-spirits-hold/cseo.json",
+      "catalogue/listings/clathrate-cooled-spirits-hold/agenticgeo.json",
+      "catalogue/listings/clathrate-cooled-spirits-hold/original.json"
+    ]
+  },
+  {
+    "category_id": "coincidence-dip-test-chamber",
+    "name": "coincidence-dip test chamber",
+    "family": "Acoustic spaces",
+    "brand": "Estavel Post 99",
+    "listings": [
+      "catalogue/listings/coincidence-dip-test-chamber/egeo.json",
+      "catalogue/listings/coincidence-dip-test-chamber/agenticgeo.json",
+      "catalogue/listings/coincidence-dip-test-chamber/geo-statisticsaddition.json",
+      "catalogue/listings/coincidence-dip-test-chamber/original.json",
+      "catalogue/listings/coincidence-dip-test-chamber/core.json",
+      "catalogue/listings/coincidence-dip-test-chamber/cseo.json"
+    ]
+  },
+  {
+    "category_id": "compacted-loess-speech-room",
+    "name": "compacted-loess speech room",
+    "family": "Acoustic spaces",
+    "brand": "Tirnach Cabinet 122",
+    "listings": [
+      "catalogue/listings/compacted-loess-speech-room/cseo.json",
+      "catalogue/listings/compacted-loess-speech-room/geo-statisticsaddition.json",
+      "catalogue/listings/compacted-loess-speech-room/agenticgeo.json",
+      "catalogue/listings/compacted-loess-speech-room/original.json",
+      "catalogue/listings/compacted-loess-speech-room/egeo.json",
+      "catalogue/listings/compacted-loess-speech-room/core.json"
+    ]
+  },
+  {
+    "category_id": "conidial-load-filter-bank",
+    "name": "conidial-load filter bank",
+    "family": "Air handling and filtration",
+    "brand": "Fenlow Station 122",
+    "listings": [
+      "catalogue/listings/conidial-load-filter-bank/geo-statisticsaddition.json",
+      "catalogue/listings/conidial-load-filter-bank/core.json",
+      "catalogue/listings/conidial-load-filter-bank/agenticgeo.json",
+      "catalogue/listings/conidial-load-filter-bank/cseo.json",
+      "catalogue/listings/conidial-load-filter-bank/original.json",
+      "catalogue/listings/conidial-load-filter-bank/egeo.json"
+    ]
+  },
+  {
+    "category_id": "convergence-monitored-office-suite",
+    "name": "convergence-monitored office suite",
+    "family": "Subterranean workspaces",
+    "brand": "Yolvex Post 158",
+    "listings": [
+      "catalogue/listings/convergence-monitored-office-suite/geo-statisticsaddition.json",
+      "catalogue/listings/convergence-monitored-office-suite/original.json",
+      "catalogue/listings/convergence-monitored-office-suite/egeo.json",
+      "catalogue/listings/convergence-monitored-office-suite/agenticgeo.json",
+      "catalogue/listings/convergence-monitored-office-suite/core.json",
+      "catalogue/listings/convergence-monitored-office-suite/cseo.json"
+    ]
+  },
+  {
+    "category_id": "cryoplanation-terrace-bunkhouse",
+    "name": "cryoplanation-terrace bunkhouse",
+    "family": "Lodging and retreat places",
+    "brand": "Turlach Vault 171",
+    "listings": [
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/original.json",
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/geo-statisticsaddition.json",
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/egeo.json",
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/cseo.json",
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/core.json",
+      "catalogue/listings/cryoplanation-terrace-bunkhouse/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "cryptoendolith-shield-stone-case",
+    "name": "cryptoendolith-shield stone case",
+    "family": "Archival and conservation equipment",
+    "brand": "Sundrel Works 80",
+    "listings": [
+      "catalogue/listings/cryptoendolith-shield-stone-case/geo-statisticsaddition.json",
+      "catalogue/listings/cryptoendolith-shield-stone-case/core.json",
+      "catalogue/listings/cryptoendolith-shield-stone-case/cseo.json",
+      "catalogue/listings/cryptoendolith-shield-stone-case/egeo.json",
+      "catalogue/listings/cryptoendolith-shield-stone-case/original.json",
+      "catalogue/listings/cryptoendolith-shield-stone-case/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "cryptogamic-dust-filter-drum",
+    "name": "cryptogamic-dust filter drum",
+    "family": "Air handling and filtration",
+    "brand": "Marrowend Cabinet 79",
+    "listings": [
+      "catalogue/listings/cryptogamic-dust-filter-drum/cseo.json",
+      "catalogue/listings/cryptogamic-dust-filter-drum/geo-statisticsaddition.json",
+      "catalogue/listings/cryptogamic-dust-filter-drum/original.json",
+      "catalogue/listings/cryptogamic-dust-filter-drum/egeo.json",
+      "catalogue/listings/cryptogamic-dust-filter-drum/core.json",
+      "catalogue/listings/cryptogamic-dust-filter-drum/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "desorption-stage-drying-rack",
+    "name": "desorption-stage drying rack",
+    "family": "Drying and dehydration equipment",
+    "brand": "Ellmarch Post 6",
+    "listings": [
+      "catalogue/listings/desorption-stage-drying-rack/geo-statisticsaddition.json",
+      "catalogue/listings/desorption-stage-drying-rack/cseo.json",
+      "catalogue/listings/desorption-stage-drying-rack/core.json",
+      "catalogue/listings/desorption-stage-drying-rack/egeo.json",
+      "catalogue/listings/desorption-stage-drying-rack/original.json",
+      "catalogue/listings/desorption-stage-drying-rack/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "dilatant-phase-printing-bench",
+    "name": "dilatant-phase printing bench",
+    "family": "Textile and material craft equipment",
+    "brand": "Nordreth Unit 24",
+    "listings": [
+      "catalogue/listings/dilatant-phase-printing-bench/original.json",
+      "catalogue/listings/dilatant-phase-printing-bench/egeo.json",
+      "catalogue/listings/dilatant-phase-printing-bench/geo-statisticsaddition.json",
+      "catalogue/listings/dilatant-phase-printing-bench/core.json",
+      "catalogue/listings/dilatant-phase-printing-bench/cseo.json",
+      "catalogue/listings/dilatant-phase-printing-bench/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "directional-freeze-brine-separator",
+    "name": "directional-freeze brine separator",
+    "family": "Water treatment and distillation apparatus",
+    "brand": "Nordreth Works 37",
+    "listings": [
+      "catalogue/listings/directional-freeze-brine-separator/cseo.json",
+      "catalogue/listings/directional-freeze-brine-separator/egeo.json",
+      "catalogue/listings/directional-freeze-brine-separator/agenticgeo.json",
+      "catalogue/listings/directional-freeze-brine-separator/original.json",
+      "catalogue/listings/directional-freeze-brine-separator/core.json",
+      "catalogue/listings/directional-freeze-brine-separator/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "drift-level-machine-gallery",
+    "name": "drift-level machine gallery",
+    "family": "Subterranean workspaces",
+    "brand": "Hoskva Works 2",
+    "listings": [
+      "catalogue/listings/drift-level-machine-gallery/agenticgeo.json",
+      "catalogue/listings/drift-level-machine-gallery/original.json",
+      "catalogue/listings/drift-level-machine-gallery/egeo.json",
+      "catalogue/listings/drift-level-machine-gallery/core.json",
+      "catalogue/listings/drift-level-machine-gallery/cseo.json",
+      "catalogue/listings/drift-level-machine-gallery/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "dunite-shell-calender-roller",
+    "name": "dunite-shell calender roller",
+    "family": "Textile and material craft equipment",
+    "brand": "Sundrel Cabinet 110",
+    "listings": [
+      "catalogue/listings/dunite-shell-calender-roller/geo-statisticsaddition.json",
+      "catalogue/listings/dunite-shell-calender-roller/egeo.json",
+      "catalogue/listings/dunite-shell-calender-roller/cseo.json",
+      "catalogue/listings/dunite-shell-calender-roller/core.json",
+      "catalogue/listings/dunite-shell-calender-roller/agenticgeo.json",
+      "catalogue/listings/dunite-shell-calender-roller/original.json"
+    ]
+  },
+  {
+    "category_id": "enthalpy-wheel-conditioning-bay",
+    "name": "enthalpy-wheel conditioning bay",
+    "family": "Drying and dehydration equipment",
+    "brand": "Sundrel Post 105",
+    "listings": [
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/agenticgeo.json",
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/original.json",
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/cseo.json",
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/egeo.json",
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/core.json",
+      "catalogue/listings/enthalpy-wheel-conditioning-bay/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "equilibrium-moisture-storage-silo",
+    "name": "equilibrium-moisture storage silo",
+    "family": "Drying and dehydration equipment",
+    "brand": "Hoskva Vault 175",
+    "listings": [
+      "catalogue/listings/equilibrium-moisture-storage-silo/geo-statisticsaddition.json",
+      "catalogue/listings/equilibrium-moisture-storage-silo/agenticgeo.json",
+      "catalogue/listings/equilibrium-moisture-storage-silo/cseo.json",
+      "catalogue/listings/equilibrium-moisture-storage-silo/original.json",
+      "catalogue/listings/equilibrium-moisture-storage-silo/egeo.json",
+      "catalogue/listings/equilibrium-moisture-storage-silo/core.json"
+    ]
+  },
+  {
+    "category_id": "estuarine-mud-viewing-capsule",
+    "name": "estuarine-mud viewing capsule",
+    "family": "Embedded observation stations",
+    "brand": "Turlach Post 114",
+    "listings": [
+      "catalogue/listings/estuarine-mud-viewing-capsule/geo-statisticsaddition.json",
+      "catalogue/listings/estuarine-mud-viewing-capsule/agenticgeo.json",
+      "catalogue/listings/estuarine-mud-viewing-capsule/original.json",
+      "catalogue/listings/estuarine-mud-viewing-capsule/cseo.json",
+      "catalogue/listings/estuarine-mud-viewing-capsule/egeo.json",
+      "catalogue/listings/estuarine-mud-viewing-capsule/core.json"
+    ]
+  },
+  {
+    "category_id": "eutectic-buffered-dairy-cellar",
+    "name": "eutectic-buffered dairy cellar",
+    "family": "Cold and cold-chain storage",
+    "brand": "Tirnach Vault 135",
+    "listings": [
+      "catalogue/listings/eutectic-buffered-dairy-cellar/cseo.json",
+      "catalogue/listings/eutectic-buffered-dairy-cellar/egeo.json",
+      "catalogue/listings/eutectic-buffered-dairy-cellar/geo-statisticsaddition.json",
+      "catalogue/listings/eutectic-buffered-dairy-cellar/agenticgeo.json",
+      "catalogue/listings/eutectic-buffered-dairy-cellar/core.json",
+      "catalogue/listings/eutectic-buffered-dairy-cellar/original.json"
+    ]
+  },
+  {
+    "category_id": "eutectic-buffered-film-cold-store",
+    "name": "eutectic-buffered film cold store",
+    "family": "Archival and conservation equipment",
+    "brand": "Yolvex Vault 192",
+    "listings": [
+      "catalogue/listings/eutectic-buffered-film-cold-store/core.json",
+      "catalogue/listings/eutectic-buffered-film-cold-store/original.json",
+      "catalogue/listings/eutectic-buffered-film-cold-store/egeo.json",
+      "catalogue/listings/eutectic-buffered-film-cold-store/agenticgeo.json",
+      "catalogue/listings/eutectic-buffered-film-cold-store/cseo.json",
+      "catalogue/listings/eutectic-buffered-film-cold-store/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "eutectoid-stage-hardening-retort",
+    "name": "eutectoid-stage hardening retort",
+    "family": "Kilns and thermal processing furnaces",
+    "brand": "Tirnach Vault 192",
+    "listings": [
+      "catalogue/listings/eutectoid-stage-hardening-retort/core.json",
+      "catalogue/listings/eutectoid-stage-hardening-retort/egeo.json",
+      "catalogue/listings/eutectoid-stage-hardening-retort/original.json",
+      "catalogue/listings/eutectoid-stage-hardening-retort/cseo.json",
+      "catalogue/listings/eutectoid-stage-hardening-retort/agenticgeo.json",
+      "catalogue/listings/eutectoid-stage-hardening-retort/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "evaporite-mineral-brining-tun",
+    "name": "evaporite-mineral brining tun",
+    "family": "Fermentation and brewing vessels",
+    "brand": "Nordreth Chamber 26",
+    "listings": [
+      "catalogue/listings/evaporite-mineral-brining-tun/geo-statisticsaddition.json",
+      "catalogue/listings/evaporite-mineral-brining-tun/core.json",
+      "catalogue/listings/evaporite-mineral-brining-tun/agenticgeo.json",
+      "catalogue/listings/evaporite-mineral-brining-tun/original.json",
+      "catalogue/listings/evaporite-mineral-brining-tun/cseo.json",
+      "catalogue/listings/evaporite-mineral-brining-tun/egeo.json"
+    ]
+  },
+  {
+    "category_id": "falling-rate-belt-dryer",
+    "name": "falling-rate belt dryer",
+    "family": "Drying and dehydration equipment",
+    "brand": "Oskarn Unit 159",
+    "listings": [
+      "catalogue/listings/falling-rate-belt-dryer/egeo.json",
+      "catalogue/listings/falling-rate-belt-dryer/geo-statisticsaddition.json",
+      "catalogue/listings/falling-rate-belt-dryer/original.json",
+      "catalogue/listings/falling-rate-belt-dryer/core.json",
+      "catalogue/listings/falling-rate-belt-dryer/agenticgeo.json",
+      "catalogue/listings/falling-rate-belt-dryer/cseo.json"
+    ]
+  },
+  {
+    "category_id": "ferrite-stage-induction-bath",
+    "name": "ferrite-stage induction bath",
+    "family": "Kilns and thermal processing furnaces",
+    "brand": "Marrowend Hall 34",
+    "listings": [
+      "catalogue/listings/ferrite-stage-induction-bath/original.json",
+      "catalogue/listings/ferrite-stage-induction-bath/cseo.json",
+      "catalogue/listings/ferrite-stage-induction-bath/core.json",
+      "catalogue/listings/ferrite-stage-induction-bath/egeo.json",
+      "catalogue/listings/ferrite-stage-induction-bath/geo-statisticsaddition.json",
+      "catalogue/listings/ferrite-stage-induction-bath/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "fetch-limited-pontoon-stage",
+    "name": "fetch-limited pontoon stage",
+    "family": "Floating and buoyant platforms",
+    "brand": "Fenlow Vault 82",
+    "listings": [
+      "catalogue/listings/fetch-limited-pontoon-stage/original.json",
+      "catalogue/listings/fetch-limited-pontoon-stage/core.json",
+      "catalogue/listings/fetch-limited-pontoon-stage/egeo.json",
+      "catalogue/listings/fetch-limited-pontoon-stage/agenticgeo.json",
+      "catalogue/listings/fetch-limited-pontoon-stage/geo-statisticsaddition.json",
+      "catalogue/listings/fetch-limited-pontoon-stage/cseo.json"
+    ]
+  },
+  {
+    "category_id": "firn-core-acoustic-test-cell",
+    "name": "firn-core acoustic test cell",
+    "family": "Acoustic spaces",
+    "brand": "Hoskva Works 190",
+    "listings": [
+      "catalogue/listings/firn-core-acoustic-test-cell/original.json",
+      "catalogue/listings/firn-core-acoustic-test-cell/geo-statisticsaddition.json",
+      "catalogue/listings/firn-core-acoustic-test-cell/agenticgeo.json",
+      "catalogue/listings/firn-core-acoustic-test-cell/core.json",
+      "catalogue/listings/firn-core-acoustic-test-cell/egeo.json",
+      "catalogue/listings/firn-core-acoustic-test-cell/cseo.json"
+    ]
+  },
+  {
+    "category_id": "firn-line-bothy",
+    "name": "firn-line bothy",
+    "family": "Lodging and retreat places",
+    "brand": "Ellmarch Post 175",
+    "listings": [
+      "catalogue/listings/firn-line-bothy/agenticgeo.json",
+      "catalogue/listings/firn-line-bothy/geo-statisticsaddition.json",
+      "catalogue/listings/firn-line-bothy/core.json",
+      "catalogue/listings/firn-line-bothy/egeo.json",
+      "catalogue/listings/firn-line-bothy/cseo.json",
+      "catalogue/listings/firn-line-bothy/original.json"
+    ]
+  },
+  {
+    "category_id": "firn-probe-calibration-bench",
+    "name": "firn-probe calibration bench",
+    "family": "Metrology and calibration instruments",
+    "brand": "Tirnach Cabinet 29",
+    "listings": [
+      "catalogue/listings/firn-probe-calibration-bench/geo-statisticsaddition.json",
+      "catalogue/listings/firn-probe-calibration-bench/original.json",
+      "catalogue/listings/firn-probe-calibration-bench/egeo.json",
+      "catalogue/listings/firn-probe-calibration-bench/core.json",
+      "catalogue/listings/firn-probe-calibration-bench/agenticgeo.json",
+      "catalogue/listings/firn-probe-calibration-bench/cseo.json"
+    ]
+  },
+  {
+    "category_id": "firn-sealed-grain-locker",
+    "name": "firn-sealed grain locker",
+    "family": "Cold and cold-chain storage",
+    "brand": "Fenlow Post 3",
+    "listings": [
+      "catalogue/listings/firn-sealed-grain-locker/original.json",
+      "catalogue/listings/firn-sealed-grain-locker/geo-statisticsaddition.json",
+      "catalogue/listings/firn-sealed-grain-locker/egeo.json",
+      "catalogue/listings/firn-sealed-grain-locker/agenticgeo.json",
+      "catalogue/listings/firn-sealed-grain-locker/core.json",
+      "catalogue/listings/firn-sealed-grain-locker/cseo.json"
+    ]
+  },
+  {
+    "category_id": "flaw-lead-sighting-deck",
+    "name": "flaw-lead sighting deck",
+    "family": "Floating and buoyant platforms",
+    "brand": "Estavel Hall 34",
+    "listings": [
+      "catalogue/listings/flaw-lead-sighting-deck/core.json",
+      "catalogue/listings/flaw-lead-sighting-deck/geo-statisticsaddition.json",
+      "catalogue/listings/flaw-lead-sighting-deck/egeo.json",
+      "catalogue/listings/flaw-lead-sighting-deck/agenticgeo.json",
+      "catalogue/listings/flaw-lead-sighting-deck/cseo.json",
+      "catalogue/listings/flaw-lead-sighting-deck/original.json"
+    ]
+  },
+  {
+    "category_id": "flint-temper-glost-kiln",
+    "name": "flint-temper glost kiln",
+    "family": "Kilns and thermal processing furnaces",
+    "brand": "Tirnach Unit 158",
+    "listings": [
+      "catalogue/listings/flint-temper-glost-kiln/egeo.json",
+      "catalogue/listings/flint-temper-glost-kiln/geo-statisticsaddition.json",
+      "catalogue/listings/flint-temper-glost-kiln/core.json",
+      "catalogue/listings/flint-temper-glost-kiln/original.json",
+      "catalogue/listings/flint-temper-glost-kiln/agenticgeo.json",
+      "catalogue/listings/flint-temper-glost-kiln/cseo.json"
+    ]
+  },
+  {
+    "category_id": "foehn-sheltered-ridge-lookout",
+    "name": "foehn-sheltered ridge lookout",
+    "family": "Elevated lookout decks",
+    "brand": "Estavel Post 109",
+    "listings": [
+      "catalogue/listings/foehn-sheltered-ridge-lookout/geo-statisticsaddition.json",
+      "catalogue/listings/foehn-sheltered-ridge-lookout/original.json",
+      "catalogue/listings/foehn-sheltered-ridge-lookout/core.json",
+      "catalogue/listings/foehn-sheltered-ridge-lookout/egeo.json",
+      "catalogue/listings/foehn-sheltered-ridge-lookout/cseo.json",
+      "catalogue/listings/foehn-sheltered-ridge-lookout/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "footwall-drive-fabrication-bay",
+    "name": "footwall-drive fabrication bay",
+    "family": "Subterranean workspaces",
+    "brand": "Nordreth Unit 112",
+    "listings": [
+      "catalogue/listings/footwall-drive-fabrication-bay/core.json",
+      "catalogue/listings/footwall-drive-fabrication-bay/agenticgeo.json",
+      "catalogue/listings/footwall-drive-fabrication-bay/cseo.json",
+      "catalogue/listings/footwall-drive-fabrication-bay/geo-statisticsaddition.json",
+      "catalogue/listings/footwall-drive-fabrication-bay/egeo.json",
+      "catalogue/listings/footwall-drive-fabrication-bay/original.json"
+    ]
+  },
+  {
+    "category_id": "fulvic-bath-scouring-tank",
+    "name": "fulvic-bath scouring tank",
+    "family": "Textile and material craft equipment",
+    "brand": "Fenlow Frame 133",
+    "listings": [
+      "catalogue/listings/fulvic-bath-scouring-tank/geo-statisticsaddition.json",
+      "catalogue/listings/fulvic-bath-scouring-tank/cseo.json",
+      "catalogue/listings/fulvic-bath-scouring-tank/original.json",
+      "catalogue/listings/fulvic-bath-scouring-tank/core.json",
+      "catalogue/listings/fulvic-bath-scouring-tank/agenticgeo.json",
+      "catalogue/listings/fulvic-bath-scouring-tank/egeo.json"
+    ]
+  },
+  {
+    "category_id": "fumarole-fed-steeping-urn",
+    "name": "fumarole-fed steeping urn",
+    "family": "Brewing and beverage implements",
+    "brand": "Estavel Chamber 79",
+    "listings": [
+      "catalogue/listings/fumarole-fed-steeping-urn/agenticgeo.json",
+      "catalogue/listings/fumarole-fed-steeping-urn/egeo.json",
+      "catalogue/listings/fumarole-fed-steeping-urn/geo-statisticsaddition.json",
+      "catalogue/listings/fumarole-fed-steeping-urn/original.json",
+      "catalogue/listings/fumarole-fed-steeping-urn/cseo.json",
+      "catalogue/listings/fumarole-fed-steeping-urn/core.json"
+    ]
+  },
+  {
+    "category_id": "gas-shielded-fumarole-station",
+    "name": "gas-shielded fumarole station",
+    "family": "Embedded observation stations",
+    "brand": "Marrowend Station 189",
+    "listings": [
+      "catalogue/listings/gas-shielded-fumarole-station/original.json",
+      "catalogue/listings/gas-shielded-fumarole-station/cseo.json",
+      "catalogue/listings/gas-shielded-fumarole-station/agenticgeo.json",
+      "catalogue/listings/gas-shielded-fumarole-station/egeo.json",
+      "catalogue/listings/gas-shielded-fumarole-station/geo-statisticsaddition.json",
+      "catalogue/listings/gas-shielded-fumarole-station/core.json"
+    ]
+  },
+  {
+    "category_id": "geothermal-flash-evaporator",
+    "name": "geothermal flash evaporator",
+    "family": "Water treatment and distillation apparatus",
+    "brand": "Oskarn Post 114",
+    "listings": [
+      "catalogue/listings/geothermal-flash-evaporator/original.json",
+      "catalogue/listings/geothermal-flash-evaporator/core.json",
+      "catalogue/listings/geothermal-flash-evaporator/egeo.json",
+      "catalogue/listings/geothermal-flash-evaporator/agenticgeo.json",
+      "catalogue/listings/geothermal-flash-evaporator/geo-statisticsaddition.json",
+      "catalogue/listings/geothermal-flash-evaporator/cseo.json"
+    ]
+  },
+  {
+    "category_id": "gibber-plain-collection-hopper",
+    "name": "gibber-plain collection hopper",
+    "family": "Air handling and filtration",
+    "brand": "Drovane Chamber 17",
+    "listings": [
+      "catalogue/listings/gibber-plain-collection-hopper/agenticgeo.json",
+      "catalogue/listings/gibber-plain-collection-hopper/egeo.json",
+      "catalogue/listings/gibber-plain-collection-hopper/core.json",
+      "catalogue/listings/gibber-plain-collection-hopper/cseo.json",
+      "catalogue/listings/gibber-plain-collection-hopper/geo-statisticsaddition.json",
+      "catalogue/listings/gibber-plain-collection-hopper/original.json"
+    ]
+  },
+  {
+    "category_id": "gilgai-cycle-test-chamber",
+    "name": "gilgai-cycle test chamber",
+    "family": "Drying and dehydration equipment",
+    "brand": "Yolvex Cabinet 27",
+    "listings": [
+      "catalogue/listings/gilgai-cycle-test-chamber/geo-statisticsaddition.json",
+      "catalogue/listings/gilgai-cycle-test-chamber/agenticgeo.json",
+      "catalogue/listings/gilgai-cycle-test-chamber/egeo.json",
+      "catalogue/listings/gilgai-cycle-test-chamber/cseo.json",
+      "catalogue/listings/gilgai-cycle-test-chamber/original.json",
+      "catalogue/listings/gilgai-cycle-test-chamber/core.json"
+    ]
+  },
+  {
+    "category_id": "glass-transition-noodle-dryer",
+    "name": "glass-transition noodle dryer",
+    "family": "Drying and dehydration equipment",
+    "brand": "Turlach Unit 11",
+    "listings": [
+      "catalogue/listings/glass-transition-noodle-dryer/original.json",
+      "catalogue/listings/glass-transition-noodle-dryer/cseo.json",
+      "catalogue/listings/glass-transition-noodle-dryer/core.json",
+      "catalogue/listings/glass-transition-noodle-dryer/agenticgeo.json",
+      "catalogue/listings/glass-transition-noodle-dryer/geo-statisticsaddition.json",
+      "catalogue/listings/glass-transition-noodle-dryer/egeo.json"
+    ]
+  },
+  {
+    "category_id": "gley-bath-steeping-vat",
+    "name": "gley-bath steeping vat",
+    "family": "Textile and material craft equipment",
+    "brand": "Ellmarch Post 80",
+    "listings": [
+      "catalogue/listings/gley-bath-steeping-vat/geo-statisticsaddition.json",
+      "catalogue/listings/gley-bath-steeping-vat/cseo.json",
+      "catalogue/listings/gley-bath-steeping-vat/egeo.json",
+      "catalogue/listings/gley-bath-steeping-vat/core.json",
+      "catalogue/listings/gley-bath-steeping-vat/original.json",
+      "catalogue/listings/gley-bath-steeping-vat/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "graded-tephra-collector",
+    "name": "graded tephra collector",
+    "family": "Metrology and calibration instruments",
+    "brand": "Oskarn Station 14",
+    "listings": [
+      "catalogue/listings/graded-tephra-collector/geo-statisticsaddition.json",
+      "catalogue/listings/graded-tephra-collector/egeo.json",
+      "catalogue/listings/graded-tephra-collector/core.json",
+      "catalogue/listings/graded-tephra-collector/agenticgeo.json",
+      "catalogue/listings/graded-tephra-collector/cseo.json",
+      "catalogue/listings/graded-tephra-collector/original.json"
+    ]
+  },
+  {
+    "category_id": "graded-tephra-slow-filter",
+    "name": "graded-tephra slow filter",
+    "family": "Water treatment and distillation apparatus",
+    "brand": "Ellmarch Station 44",
+    "listings": [
+      "catalogue/listings/graded-tephra-slow-filter/agenticgeo.json",
+      "catalogue/listings/graded-tephra-slow-filter/original.json",
+      "catalogue/listings/graded-tephra-slow-filter/cseo.json",
+      "catalogue/listings/graded-tephra-slow-filter/egeo.json",
+      "catalogue/listings/graded-tephra-slow-filter/geo-statisticsaddition.json",
+      "catalogue/listings/graded-tephra-slow-filter/core.json"
+    ]
+  },
+  {
+    "category_id": "graupel-chilled-infusion-carafe",
+    "name": "graupel-chilled infusion carafe",
+    "family": "Brewing and beverage implements",
+    "brand": "Marrowend Post 37",
+    "listings": [
+      "catalogue/listings/graupel-chilled-infusion-carafe/agenticgeo.json",
+      "catalogue/listings/graupel-chilled-infusion-carafe/geo-statisticsaddition.json",
+      "catalogue/listings/graupel-chilled-infusion-carafe/egeo.json",
+      "catalogue/listings/graupel-chilled-infusion-carafe/original.json",
+      "catalogue/listings/graupel-chilled-infusion-carafe/cseo.json",
+      "catalogue/listings/graupel-chilled-infusion-carafe/core.json"
+    ]
+  },
+  {
+    "category_id": "gypcrete-pack-hardness-filter",
+    "name": "gypcrete-pack hardness filter",
+    "family": "Water treatment and distillation apparatus",
+    "brand": "Drovane Station 46",
+    "listings": [
+      "catalogue/listings/gypcrete-pack-hardness-filter/core.json",
+      "catalogue/listings/gypcrete-pack-hardness-filter/agenticgeo.json",
+      "catalogue/listings/gypcrete-pack-hardness-filter/geo-statisticsaddition.json",
+      "catalogue/listings/gypcrete-pack-hardness-filter/egeo.json",
+      "catalogue/listings/gypcrete-pack-hardness-filter/original.json",
+      "catalogue/listings/gypcrete-pack-hardness-filter/cseo.json"
+    ]
+  },
+  {
+    "category_id": "haboob-rated-observation-mast",
+    "name": "haboob-rated observation mast",
+    "family": "Elevated lookout decks",
+    "brand": "Drovane Chamber 6",
+    "listings": [
+      "catalogue/listings/haboob-rated-observation-mast/cseo.json",
+      "catalogue/listings/haboob-rated-observation-mast/geo-statisticsaddition.json",
+      "catalogue/listings/haboob-rated-observation-mast/agenticgeo.json",
+      "catalogue/listings/haboob-rated-observation-mast/core.json",
+      "catalogue/listings/haboob-rated-observation-mast/egeo.json",
+      "catalogue/listings/haboob-rated-observation-mast/original.json"
+    ]
+  },
+  {
+    "category_id": "halocline-dive-lodge",
+    "name": "halocline dive lodge",
+    "family": "Lodging and retreat places",
+    "brand": "Nordreth Unit 19",
+    "listings": [
+      "catalogue/listings/halocline-dive-lodge/cseo.json",
+      "catalogue/listings/halocline-dive-lodge/original.json",
+      "catalogue/listings/halocline-dive-lodge/core.json",
+      "catalogue/listings/halocline-dive-lodge/agenticgeo.json",
+      "catalogue/listings/halocline-dive-lodge/geo-statisticsaddition.json",
+      "catalogue/listings/halocline-dive-lodge/egeo.json"
+    ]
+  },
+  {
+    "category_id": "halocline-trimmed-dive-dolly",
+    "name": "halocline-trimmed dive dolly",
+    "family": "Transport and handling gear",
+    "brand": "Sundrel Unit 56",
+    "listings": [
+      "catalogue/listings/halocline-trimmed-dive-dolly/agenticgeo.json",
+      "catalogue/listings/halocline-trimmed-dive-dolly/geo-statisticsaddition.json",
+      "catalogue/listings/halocline-trimmed-dive-dolly/egeo.json",
+      "catalogue/listings/halocline-trimmed-dive-dolly/original.json",
+      "catalogue/listings/halocline-trimmed-dive-dolly/core.json",
+      "catalogue/listings/halocline-trimmed-dive-dolly/cseo.json"
+    ]
+  },
+  {
+    "category_id": "halophile-culture-brine-tun",
+    "name": "halophile-culture brine tun",
+    "family": "Fermentation and brewing vessels",
+    "brand": "Sundrel Vault 143",
+    "listings": [
+      "catalogue/listings/halophile-culture-brine-tun/cseo.json",
+      "catalogue/listings/halophile-culture-brine-tun/egeo.json",
+      "catalogue/listings/halophile-culture-brine-tun/geo-statisticsaddition.json",
+      "catalogue/listings/halophile-culture-brine-tun/original.json",
+      "catalogue/listings/halophile-culture-brine-tun/core.json",
+      "catalogue/listings/halophile-culture-brine-tun/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "halophile-culture-dye-vat",
+    "name": "halophile-culture dye vat",
+    "family": "Textile and material craft equipment",
+    "brand": "Turlach Post 110",
+    "listings": [
+      "catalogue/listings/halophile-culture-dye-vat/geo-statisticsaddition.json",
+      "catalogue/listings/halophile-culture-dye-vat/original.json",
+      "catalogue/listings/halophile-culture-dye-vat/cseo.json",
+      "catalogue/listings/halophile-culture-dye-vat/agenticgeo.json",
+      "catalogue/listings/halophile-culture-dye-vat/core.json",
+      "catalogue/listings/halophile-culture-dye-vat/egeo.json"
+    ]
+  },
+  {
+    "category_id": "hyaloclastite-vent-imaging-post",
+    "name": "hyaloclastite-vent imaging post",
+    "family": "Embedded observation stations",
+    "brand": "Sundrel Unit 117",
+    "listings": [
+      "catalogue/listings/hyaloclastite-vent-imaging-post/cseo.json",
+      "catalogue/listings/hyaloclastite-vent-imaging-post/geo-statisticsaddition.json",
+      "catalogue/listings/hyaloclastite-vent-imaging-post/core.json",
+      "catalogue/listings/hyaloclastite-vent-imaging-post/agenticgeo.json",
+      "catalogue/listings/hyaloclastite-vent-imaging-post/egeo.json",
+      "catalogue/listings/hyaloclastite-vent-imaging-post/original.json"
+    ]
+  },
+  {
+    "category_id": "hygroscopic-trap-film-canister",
+    "name": "hygroscopic-trap film canister",
+    "family": "Archival and conservation equipment",
+    "brand": "Tirnach Frame 119",
+    "listings": [
+      "catalogue/listings/hygroscopic-trap-film-canister/core.json",
+      "catalogue/listings/hygroscopic-trap-film-canister/original.json",
+      "catalogue/listings/hygroscopic-trap-film-canister/agenticgeo.json",
+      "catalogue/listings/hygroscopic-trap-film-canister/egeo.json",
+      "catalogue/listings/hygroscopic-trap-film-canister/geo-statisticsaddition.json",
+      "catalogue/listings/hygroscopic-trap-film-canister/cseo.json"
+    ]
+  },
+  {
+    "category_id": "hyporheic-flow-sand-column",
+    "name": "hyporheic-flow sand column",
+    "family": "Water treatment and distillation apparatus",
+    "brand": "Turlach Unit 27",
+    "listings": [
+      "catalogue/listings/hyporheic-flow-sand-column/geo-statisticsaddition.json",
+      "catalogue/listings/hyporheic-flow-sand-column/egeo.json",
+      "catalogue/listings/hyporheic-flow-sand-column/cseo.json",
+      "catalogue/listings/hyporheic-flow-sand-column/original.json",
+      "catalogue/listings/hyporheic-flow-sand-column/core.json",
+      "catalogue/listings/hyporheic-flow-sand-column/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "impact-damped-rehearsal-loft",
+    "name": "impact-damped rehearsal loft",
+    "family": "Acoustic spaces",
+    "brand": "Nordreth Frame 171",
+    "listings": [
+      "catalogue/listings/impact-damped-rehearsal-loft/agenticgeo.json",
+      "catalogue/listings/impact-damped-rehearsal-loft/cseo.json",
+      "catalogue/listings/impact-damped-rehearsal-loft/egeo.json",
+      "catalogue/listings/impact-damped-rehearsal-loft/core.json",
+      "catalogue/listings/impact-damped-rehearsal-loft/original.json",
+      "catalogue/listings/impact-damped-rehearsal-loft/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "infrasound-monitoring-booth",
+    "name": "infrasound monitoring booth",
+    "family": "Acoustic spaces",
+    "brand": "Nordreth Station 29",
+    "listings": [
+      "catalogue/listings/infrasound-monitoring-booth/agenticgeo.json",
+      "catalogue/listings/infrasound-monitoring-booth/geo-statisticsaddition.json",
+      "catalogue/listings/infrasound-monitoring-booth/egeo.json",
+      "catalogue/listings/infrasound-monitoring-booth/core.json",
+      "catalogue/listings/infrasound-monitoring-booth/original.json",
+      "catalogue/listings/infrasound-monitoring-booth/cseo.json"
+    ]
+  },
+  {
+    "category_id": "infrasound-pressure-reference-cell",
+    "name": "infrasound pressure-reference cell",
+    "family": "Metrology and calibration instruments",
+    "brand": "Yolvex Unit 43",
+    "listings": [
+      "catalogue/listings/infrasound-pressure-reference-cell/egeo.json",
+      "catalogue/listings/infrasound-pressure-reference-cell/original.json",
+      "catalogue/listings/infrasound-pressure-reference-cell/agenticgeo.json",
+      "catalogue/listings/infrasound-pressure-reference-cell/core.json",
+      "catalogue/listings/infrasound-pressure-reference-cell/cseo.json",
+      "catalogue/listings/infrasound-pressure-reference-cell/geo-statisticsaddition.json"
+    ]
+  },
+  {
+    "category_id": "isopiestic-hold-warping-frame",
+    "name": "isopiestic-hold warping frame",
+    "family": "Textile and material craft equipment",
+    "brand": "Marrowend Vault 18",
+    "listings": [
+      "catalogue/listings/isopiestic-hold-warping-frame/geo-statisticsaddition.json",
+      "catalogue/listings/isopiestic-hold-warping-frame/original.json",
+      "catalogue/listings/isopiestic-hold-warping-frame/egeo.json",
+      "catalogue/listings/isopiestic-hold-warping-frame/cseo.json",
+      "catalogue/listings/isopiestic-hold-warping-frame/core.json",
+      "catalogue/listings/isopiestic-hold-warping-frame/agenticgeo.json"
+    ]
+  },
+  {
+    "category_id": "jokulhlaup-rated-river-stage",
+    "name": "jokulhlaup-rated river stage",
+    "family": "Floating and buoyant platforms",
+    "brand": "Ellmarch Frame 77",
+    "listings": [
+      "catalogue/listings/jokulhlaup-rated-river-stage/core.json",
+      "catalogue/listings/jokulhlaup-rated-river-stage/cseo.json",
+      "catalogue/listings/jokulhlaup-rated-river-stage/agenticgeo.json",
+      "catalogue/listings/jokulhlaup-rated-river-stage/egeo.json",
+      "catalogue/listings/jokulhlaup-rated-river-stage/geo-statisticsaddition.json",
+      "catalogue/listings/jokulhlaup-rated-river-stage/original.json"
+    ]
+  }
+]

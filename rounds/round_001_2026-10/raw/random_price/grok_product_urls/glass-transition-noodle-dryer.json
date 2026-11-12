@@ -1,0 +1,155 @@
+{
+  "category_id": "glass-transition-noodle-dryer",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Turlach Unit 11 EGEO glass-transition noodle dryer",
+      "Turlach Unit 11 CSEO glass-transition noodle dryer",
+      "Turlach Unit 11 GEO-StatisticsAddition glass-transition noodle dryer",
+      "Turlach Unit 11 AgenticGEO glass-transition noodle dryer",
+      "Turlach Unit 11 CORE glass-transition noodle dryer",
+      "Turlach Unit 11 Original glass-transition noodle dryer"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Turlach Unit 11 CORE glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35891.41 (unit price set after acceptance)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Turlach Unit 11 GEO-StatisticsAddition glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35860.07 (unit price set after acceptance)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Turlach Unit 11 Original glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35961.21 (unit price set after acceptance)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Turlach Unit 11 EGEO glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35924.87 (unit price is determined upon acceptance, providing flexibility for different business needs and order volumes)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Turlach Unit 11 CSEO glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35927.74 (unit price is determined following acceptance, providing flexibility to tailor the purchase to your specific requirements)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Turlach Unit 11 AgenticGEO glass-transition noodle dryer",
+        "product_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 35833.10 (unit price 35833.10 dollars)",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest glass-transition noodle dryer\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/core.html\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/original.html\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/egeo.html\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/cseo.html\nhttps://live.243324252.cfd/s/px80v1/0860afb6cf81/agenticgeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Turlach Unit 11 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/original.html"
+      },
+      "CORE": {
+        "name": "Turlach Unit 11 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/core.html"
+      },
+      "CSEO": {
+        "name": "Turlach Unit 11 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/cseo.html"
+      },
+      "EGEO": {
+        "name": "Turlach Unit 11 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Turlach Unit 11 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Turlach Unit 11 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "35961.21",
+      "CORE": "35891.41",
+      "CSEO": "35927.74",
+      "EGEO": "35924.87",
+      "AgenticGEO": "35833.10",
+      "GEO-StatisticsAddition": "35860.07"
+    },
+    "local_method_order": [
+      "AgenticGEO",
+      "CORE",
+      "EGEO",
+      "CSEO",
+      "GEO-StatisticsAddition",
+      "Original"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/core.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/drying-and-dehydration-equipment/glass-transition-noodle-dryer/turlach-unit-11/original.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/0860afb6cf81/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/core.html",
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/original.html",
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/0860afb6cf81/agenticgeo.html"
+    ]
+  },
+  "ranks": {
+    "EGEO": 1,
+    "CSEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "AgenticGEO": 4,
+    "CORE": 5,
+    "Original": 6
+  },
+  "source_sha256": "7d12fc79373fa93cc18b4865721ae51dde354cb5b372d6f9a8be2f44f96135cf",
+  "name_to_method": {
+    "Turlach Unit 11 EGEO glass-transition noodle dryer": "EGEO",
+    "Turlach Unit 11 CSEO glass-transition noodle dryer": "CSEO",
+    "Turlach Unit 11 GEO-StatisticsAddition glass-transition noodle dryer": "GEO-StatisticsAddition",
+    "Turlach Unit 11 AgenticGEO glass-transition noodle dryer": "AgenticGEO",
+    "Turlach Unit 11 CORE glass-transition noodle dryer": "CORE",
+    "Turlach Unit 11 Original glass-transition noodle dryer": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

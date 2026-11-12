@@ -1,0 +1,7 @@
+condition_id,method,n,top1_count,rank_sum,top1_percent,mean_rank
+c12,Original,80,0,467,0.0,5.84
+c12,CORE,80,54,177,67.5,2.21
+c12,CSEO,80,7,240,8.8,3.00
+c12,EGEO,80,6,241,7.5,3.01
+c12,AgenticGEO,80,4,290,5.0,3.63
+c12,GEO-StatisticsAddition,80,9,265,11.3,3.31

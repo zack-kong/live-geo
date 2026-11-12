@@ -1,0 +1,141 @@
+{
+  "category_id": "bora-rated-cliff-walkway",
+  "condition_id": "c18",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Yolvex Vault 181 CORE",
+      "Yolvex Vault 181 EGEO",
+      "Yolvex Vault 181 CSEO",
+      "Yolvex Vault 181 GEO-StatisticsAddition",
+      "Yolvex Vault 181 AgenticGEO",
+      "Yolvex Vault 181 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Yolvex Vault 181 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 536.55 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Yolvex Vault 181 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 535.84 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Yolvex Vault 181 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 536.79 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Yolvex Vault 181 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 537.14 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Yolvex Vault 181 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 537.35 per person",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Yolvex Vault 181 Original",
+        "product_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 535.77 per person",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest bora-rated cliff walkway\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/core.html\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/original.html\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/egeo.html\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/cseo.html\nhttps://live.243324252.cfd/s/px80v1/cd60dfb3971e/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Yolvex Vault 181 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/original.html"
+      },
+      "CORE": {
+        "name": "Yolvex Vault 181 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/core.html"
+      },
+      "CSEO": {
+        "name": "Yolvex Vault 181 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/cseo.html"
+      },
+      "EGEO": {
+        "name": "Yolvex Vault 181 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Yolvex Vault 181 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Yolvex Vault 181 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "535.77",
+      "CORE": "536.55",
+      "CSEO": "536.79",
+      "EGEO": "535.84",
+      "AgenticGEO": "537.35",
+      "GEO-StatisticsAddition": "537.14"
+    },
+    "brand_url": "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/core.html",
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/original.html",
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/cd60dfb3971e/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "CSEO": 3,
+    "GEO-StatisticsAddition": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "8cc3012aa5dab5007570588bf32db107e0a27984d4fe9f299bafb7b5d4616bf7",
+  "name_to_method": {
+    "Yolvex Vault 181 CORE": "CORE",
+    "Yolvex Vault 181 EGEO": "EGEO",
+    "Yolvex Vault 181 CSEO": "CSEO",
+    "Yolvex Vault 181 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Yolvex Vault 181 AgenticGEO": "AgenticGEO",
+    "Yolvex Vault 181 Original": "Original"
+  },
+  "recorded_settings": {
+    "displayed_version": "3.6 Thinking",
+    "final_mode": "Thinking",
+    "temporary": false
+  },
+  "condition_settings": "settings.json"
+}

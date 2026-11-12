@@ -1,0 +1,133 @@
+{
+  "category_id": "clathrate-cooled-spirits-hold",
+  "condition_id": "c14",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Oskarn Frame 139 CORE",
+      "Oskarn Frame 139 GEO-StatisticsAddition",
+      "Oskarn Frame 139 CSEO",
+      "Oskarn Frame 139 EGEO",
+      "Oskarn Frame 139 AgenticGEO",
+      "Oskarn Frame 139 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Oskarn Frame 139 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5645.37 per year",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Frame 139 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5630.26 per year",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Frame 139 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5634.70 per year",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Frame 139 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5644.85 per year",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Frame 139 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5636.61 per year",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Frame 139 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 5637.16 per year",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest clathrate-cooled spirits hold\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/f0509d263426/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Oskarn Frame 139 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/original.html"
+      },
+      "CORE": {
+        "name": "Oskarn Frame 139 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/core.html"
+      },
+      "CSEO": {
+        "name": "Oskarn Frame 139 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/cseo.html"
+      },
+      "EGEO": {
+        "name": "Oskarn Frame 139 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Oskarn Frame 139 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Oskarn Frame 139 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "5637.16",
+      "CORE": "5630.26",
+      "CSEO": "5636.61",
+      "EGEO": "5645.37",
+      "AgenticGEO": "5634.70",
+      "GEO-StatisticsAddition": "5644.85"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/f0509d263426/"
+  },
+  "ranks": {
+    "CORE": 1,
+    "GEO-StatisticsAddition": 2,
+    "CSEO": 3,
+    "EGEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "9f2ea892ea523ada9424c43b65bc55c0e3fb6fe061824b2379994c63222bb7a4",
+  "name_to_method": {
+    "Oskarn Frame 139 CORE": "CORE",
+    "Oskarn Frame 139 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Oskarn Frame 139 CSEO": "CSEO",
+    "Oskarn Frame 139 EGEO": "EGEO",
+    "Oskarn Frame 139 AgenticGEO": "AgenticGEO",
+    "Oskarn Frame 139 Original": "Original"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

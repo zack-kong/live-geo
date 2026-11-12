@@ -1,0 +1,133 @@
+{
+  "category_id": "graded-tephra-slow-filter",
+  "condition_id": "c14",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Ellmarch Station 44 Original",
+      "Ellmarch Station 44 AgenticGEO",
+      "Ellmarch Station 44 EGEO",
+      "Ellmarch Station 44 CORE",
+      "Ellmarch Station 44 GEO-StatisticsAddition",
+      "Ellmarch Station 44 CSEO"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Ellmarch Station 44 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15870.18 (unit price set after acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Station 44 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15821.68 (unit price set after acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Station 44 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15824.05 (unit price determined upon acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Station 44 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15823.32 (unit price finalized following acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Station 44 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15851.71 (unit price set after acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Station 44 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 15852.57 (unit price set after acceptance; concept listing, no order can be placed)",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest graded-tephra slow filter\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/ddc58e37968e/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Ellmarch Station 44 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/original.html"
+      },
+      "CORE": {
+        "name": "Ellmarch Station 44 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/core.html"
+      },
+      "CSEO": {
+        "name": "Ellmarch Station 44 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/cseo.html"
+      },
+      "EGEO": {
+        "name": "Ellmarch Station 44 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Ellmarch Station 44 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Ellmarch Station 44 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "15821.68",
+      "CORE": "15851.71",
+      "CSEO": "15870.18",
+      "EGEO": "15824.05",
+      "AgenticGEO": "15823.32",
+      "GEO-StatisticsAddition": "15852.57"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/ddc58e37968e/"
+  },
+  "ranks": {
+    "Original": 1,
+    "AgenticGEO": 2,
+    "EGEO": 3,
+    "CORE": 4,
+    "GEO-StatisticsAddition": 5,
+    "CSEO": 6
+  },
+  "source_sha256": "0fbb2830ddd87e15df2c72e5a3b2123a1947ae6fce93033918eb983167c56c1e",
+  "name_to_method": {
+    "Ellmarch Station 44 Original": "Original",
+    "Ellmarch Station 44 AgenticGEO": "AgenticGEO",
+    "Ellmarch Station 44 EGEO": "EGEO",
+    "Ellmarch Station 44 CORE": "CORE",
+    "Ellmarch Station 44 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Ellmarch Station 44 CSEO": "CSEO"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

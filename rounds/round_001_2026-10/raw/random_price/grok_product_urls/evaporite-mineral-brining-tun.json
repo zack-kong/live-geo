@@ -1,0 +1,155 @@
+{
+  "category_id": "evaporite-mineral-brining-tun",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Nordreth Chamber 26 CORE",
+      "Nordreth Chamber 26 EGEO",
+      "Nordreth Chamber 26 GEO-StatisticsAddition",
+      "Nordreth Chamber 26 AgenticGEO",
+      "Nordreth Chamber 26 CSEO",
+      "Nordreth Chamber 26 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Nordreth Chamber 26 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4807.81",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Chamber 26 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4802.74",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Chamber 26 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4796.70",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Chamber 26 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4803.63",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Chamber 26 Original",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4802.67",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Chamber 26 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4795.47",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest evaporite-mineral brining tun\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/cseo.html\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/core.html\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/original.html\nhttps://live.243324252.cfd/s/px80v1/d4d6709f2b38/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Nordreth Chamber 26 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/original.html"
+      },
+      "CORE": {
+        "name": "Nordreth Chamber 26 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/core.html"
+      },
+      "CSEO": {
+        "name": "Nordreth Chamber 26 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/cseo.html"
+      },
+      "EGEO": {
+        "name": "Nordreth Chamber 26 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Nordreth Chamber 26 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Nordreth Chamber 26 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "4802.67",
+      "CORE": "4796.70",
+      "CSEO": "4802.74",
+      "EGEO": "4795.47",
+      "AgenticGEO": "4807.81",
+      "GEO-StatisticsAddition": "4803.63"
+    },
+    "local_method_order": [
+      "AgenticGEO",
+      "Original",
+      "CORE",
+      "EGEO",
+      "GEO-StatisticsAddition",
+      "CSEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/original.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/core.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/fermentation-and-brewing-vessels/evaporite-mineral-brining-tun/nordreth-chamber-26/cseo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/core.html",
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/original.html",
+      "https://live.243324252.cfd/s/px80v1/d4d6709f2b38/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "AgenticGEO": 4,
+    "CSEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "d69382e2398dfb1e32fcdee527717ff45890ef76254f5100b6cc5a479ecb9359",
+  "name_to_method": {
+    "Nordreth Chamber 26 CORE": "CORE",
+    "Nordreth Chamber 26 EGEO": "EGEO",
+    "Nordreth Chamber 26 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Nordreth Chamber 26 AgenticGEO": "AgenticGEO",
+    "Nordreth Chamber 26 CSEO": "CSEO",
+    "Nordreth Chamber 26 Original": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

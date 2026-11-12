@@ -1,0 +1,141 @@
+{
+  "category_id": "blockfield-guest-lodge",
+  "condition_id": "c18",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html"
+    ],
+    "reading_log": [
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Unable to access external web page content."
+      }
+    ],
+    "limitations": "Could not access or read content from any of the six provided URLs due to missing web browsing access."
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest blockfield guest lodge\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html\nhttps://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Estavel Vault 105 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html"
+      },
+      "CORE": {
+        "name": "Estavel Vault 105 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html"
+      },
+      "CSEO": {
+        "name": "Estavel Vault 105 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html"
+      },
+      "EGEO": {
+        "name": "Estavel Vault 105 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Estavel Vault 105 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Estavel Vault 105 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "334.77",
+      "CORE": "334.24",
+      "CSEO": "333.97",
+      "EGEO": "334.16",
+      "AgenticGEO": "333.60",
+      "GEO-StatisticsAddition": "334.07"
+    },
+    "brand_url": "https://live.243324252.cfd/s/px80v1/27f71d3f0378/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "AgenticGEO": 4,
+    "EGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "c4d84a5de9196cf23b49f2319d1e7ef36f03946f5cd5f865c5ee133ea301e791",
+  "name_to_method": {
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/core.html": "CORE",
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/cseo.html": "CSEO",
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/geo-statisticsaddition.html": "GEO-StatisticsAddition",
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/agenticgeo.html": "AgenticGEO",
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/egeo.html": "EGEO",
+    "https://live.243324252.cfd/s/px80v1/27f71d3f0378/original.html": "Original"
+  },
+  "recorded_settings": {
+    "displayed_version": "3.6 Thinking",
+    "final_mode": "Thinking",
+    "temporary": false
+  },
+  "condition_settings": "settings.json"
+}

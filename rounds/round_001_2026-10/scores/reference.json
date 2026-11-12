@@ -1,0 +1,3387 @@
+[
+  {
+    "condition_id": "c06",
+    "matrix": {
+      "anchor-ice-launch-cradle": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "andosol-mix-rooting-box": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "austenitic-hold-annealing-oven": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CORE": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "coincidence-dip-test-chamber": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "convergence-monitored-office-suite": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "directional-freeze-brine-separator": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "eutectoid-stage-hardening-retort": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "geothermal-flash-evaporator": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "graded-tephra-slow-filter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "halocline-trimmed-dive-dolly": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "actinic-shielded-print-cabinet": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "active-layer-thaw-bed-planter": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "adit-entry-survey-chamber": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "advection-fog-demister": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "aeolian-sand-culture-tray": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "aeolian-sealed-dripper": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ambient-floor-audition-vault": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anorthosite-block-quench-pit": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "anoxic-parchment-cabinet": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anoxic-sourdough-crock": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ashfall-shielded-viewing-deck": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "aufeis-jacketed-cheese-vault": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "barophilic-pressure-vat": {
+        "CORE": 1,
+        "Original": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "basalt-bed-kettle": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "benthic-range-pressure-calibrator": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "blockfield-guest-lodge": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "bora-rated-cliff-walkway": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "brine-flat-field-retreat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "brine-mist-fogponic-rack": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "caliche-sealed-pottery-vault": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "Original": 4,
+        "CSEO": 5,
+        "EGEO": 6
+      },
+      "chott-air-spice-tray": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "clathrate-cooled-spirits-hold": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "compacted-loess-speech-room": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "conidial-load-filter-bank": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "cryoplanation-terrace-bunkhouse": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "cryptoendolith-shield-stone-case": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "cryptogamic-dust-filter-drum": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "desorption-stage-drying-rack": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "dilatant-phase-printing-bench": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "drift-level-machine-gallery": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "Original": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "dunite-shell-calender-roller": {
+        "AgenticGEO": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "CSEO": 6
+      },
+      "enthalpy-wheel-conditioning-bay": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "Original": 4,
+        "CSEO": 5,
+        "CORE": 6
+      },
+      "equilibrium-moisture-storage-silo": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "estuarine-mud-viewing-capsule": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-dairy-cellar": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-film-cold-store": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CORE": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "evaporite-mineral-brining-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "falling-rate-belt-dryer": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "ferrite-stage-induction-bath": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "fetch-limited-pontoon-stage": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "Original": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "CORE": 6
+      },
+      "firn-core-acoustic-test-cell": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-line-bothy": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-probe-calibration-bench": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "CSEO": 6
+      },
+      "firn-sealed-grain-locker": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "flaw-lead-sighting-deck": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "flint-temper-glost-kiln": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "foehn-sheltered-ridge-lookout": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "footwall-drive-fabrication-bay": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fulvic-bath-scouring-tank": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fumarole-fed-steeping-urn": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "gas-shielded-fumarole-station": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "gibber-plain-collection-hopper": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "gilgai-cycle-test-chamber": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "glass-transition-noodle-dryer": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "gley-bath-steeping-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "Original": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "CSEO": 6
+      },
+      "graded-tephra-collector": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "graupel-chilled-infusion-carafe": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "gypcrete-pack-hardness-filter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "Original": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "EGEO": 6
+      },
+      "haboob-rated-observation-mast": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "halocline-dive-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "halophile-culture-brine-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halophile-culture-dye-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hyaloclastite-vent-imaging-post": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hygroscopic-trap-film-canister": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "hyporheic-flow-sand-column": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "impact-damped-rehearsal-loft": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "infrasound-monitoring-booth": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "infrasound-pressure-reference-cell": {
+        "Original": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "CSEO": 6
+      },
+      "isopiestic-hold-warping-frame": {
+        "CSEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "jokulhlaup-rated-river-stage": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      }
+    },
+    "summary": {
+      "group": "ChatGPT (product URLs unless noted)",
+      "condition": "$\\pm0.2\\%$",
+      "adjusted": false,
+      "n": 80,
+      "top1_counts": [
+        2,
+        61,
+        2,
+        4,
+        3,
+        8
+      ],
+      "rank_sums": [
+        422,
+        139,
+        324,
+        237,
+        304,
+        254
+      ],
+      "cells": [
+        "2.5 / 5.28",
+        "76.3 / 1.74",
+        "2.5 / 4.05",
+        "5.0 / 2.96",
+        "3.8 / 3.80",
+        "10.0 / 3.18"
+      ],
+      "margin": "66.3",
+      "spread": "3.54"
+    }
+  },
+  {
+    "condition_id": "c08",
+    "matrix": {
+      "actinic-shielded-print-cabinet": {
+        "CSEO": 1,
+        "AgenticGEO": 2,
+        "Original": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "adit-entry-survey-chamber": {
+        "AgenticGEO": 1,
+        "Original": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "CORE": 6
+      },
+      "advection-fog-demister": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "aeolian-sand-culture-tray": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "aeolian-sealed-dripper": {
+        "Original": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "CSEO": 6
+      },
+      "ambient-floor-audition-vault": {
+        "AgenticGEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "anchor-ice-launch-cradle": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "andosol-mix-rooting-box": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "anorthosite-block-quench-pit": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "anoxic-parchment-cabinet": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "anoxic-sourdough-crock": {
+        "CORE": 1,
+        "CSEO": 2,
+        "Original": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "ashfall-shielded-viewing-deck": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "Original": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "aufeis-jacketed-cheese-vault": {
+        "Original": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "austenitic-hold-annealing-oven": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CORE": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "barophilic-pressure-vat": {
+        "CSEO": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "Original": 4,
+        "AgenticGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "basalt-bed-kettle": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "benthic-range-pressure-calibrator": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "Original": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "blockfield-guest-lodge": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "bora-rated-cliff-walkway": {
+        "Original": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "AgenticGEO": 6
+      },
+      "brine-flat-field-retreat": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "brine-mist-fogponic-rack": {
+        "Original": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "caliche-sealed-pottery-vault": {
+        "Original": 1,
+        "CORE": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "chott-air-spice-tray": {
+        "CSEO": 1,
+        "AgenticGEO": 2,
+        "CORE": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "clathrate-cooled-spirits-hold": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "coincidence-dip-test-chamber": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "CORE": 6
+      },
+      "compacted-loess-speech-room": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "conidial-load-filter-bank": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "Original": 4,
+        "AgenticGEO": 5,
+        "EGEO": 6
+      },
+      "convergence-monitored-office-suite": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "cryoplanation-terrace-bunkhouse": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "cryptoendolith-shield-stone-case": {
+        "Original": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "CORE": 6
+      },
+      "cryptogamic-dust-filter-drum": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "desorption-stage-drying-rack": {
+        "CSEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "dilatant-phase-printing-bench": {
+        "EGEO": 1,
+        "Original": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "CORE": 6
+      },
+      "directional-freeze-brine-separator": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "drift-level-machine-gallery": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "Original": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "dunite-shell-calender-roller": {
+        "AgenticGEO": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "CSEO": 6
+      },
+      "enthalpy-wheel-conditioning-bay": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "Original": 4,
+        "CSEO": 5,
+        "CORE": 6
+      },
+      "equilibrium-moisture-storage-silo": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "estuarine-mud-viewing-capsule": {
+        "Original": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "CORE": 6
+      },
+      "eutectic-buffered-dairy-cellar": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fetch-limited-pontoon-stage": {
+        "EGEO": 1,
+        "CORE": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-core-acoustic-test-cell": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-line-bothy": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-probe-calibration-bench": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-sealed-grain-locker": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "flaw-lead-sighting-deck": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "footwall-drive-fabrication-bay": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "fulvic-bath-scouring-tank": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fumarole-fed-steeping-urn": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gas-shielded-fumarole-station": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gilgai-cycle-test-chamber": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "glass-transition-noodle-dryer": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "graded-tephra-collector": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "graupel-chilled-infusion-carafe": {
+        "CSEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "haboob-rated-observation-mast": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "halocline-dive-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halocline-trimmed-dive-dolly": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "halophile-culture-brine-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "hyaloclastite-vent-imaging-post": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hygroscopic-trap-film-canister": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "hyporheic-flow-sand-column": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "impact-damped-rehearsal-loft": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "infrasound-monitoring-booth": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "jokulhlaup-rated-river-stage": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "active-layer-thaw-bed-planter": {
+        "Original": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "EGEO": 6
+      },
+      "eutectoid-stage-hardening-retort": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "falling-rate-belt-dryer": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ferrite-stage-induction-bath": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "graded-tephra-slow-filter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "isopiestic-hold-warping-frame": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "flint-temper-glost-kiln": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "foehn-sheltered-ridge-lookout": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CORE": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "geothermal-flash-evaporator": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gibber-plain-collection-hopper": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "halophile-culture-dye-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "infrasound-pressure-reference-cell": {
+        "Original": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "CSEO": 6
+      },
+      "eutectic-buffered-film-cold-store": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "evaporite-mineral-brining-tun": {
+        "EGEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gley-bath-steeping-vat": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "gypcrete-pack-hardness-filter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      }
+    },
+    "summary": {
+      "group": "ChatGPT (product URLs unless noted)",
+      "condition": "Brand URL, $\\pm0.2\\%$",
+      "adjusted": false,
+      "n": 80,
+      "top1_counts": [
+        10,
+        37,
+        6,
+        7,
+        9,
+        11
+      ],
+      "rank_sums": [
+        369,
+        196,
+        298,
+        270,
+        294,
+        253
+      ],
+      "cells": [
+        "12.5 / 4.61",
+        "46.3 / 2.45",
+        "7.5 / 3.73",
+        "8.8 / 3.38",
+        "11.3 / 3.68",
+        "13.8 / 3.16"
+      ],
+      "margin": "32.5",
+      "spread": "2.16"
+    }
+  },
+  {
+    "condition_id": "c12",
+    "matrix": {
+      "anchor-ice-launch-cradle": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "andosol-mix-rooting-box": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "austenitic-hold-annealing-oven": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CORE": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "coincidence-dip-test-chamber": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "convergence-monitored-office-suite": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "directional-freeze-brine-separator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "eutectoid-stage-hardening-retort": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "geothermal-flash-evaporator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "graded-tephra-slow-filter": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "halocline-trimmed-dive-dolly": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "actinic-shielded-print-cabinet": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "active-layer-thaw-bed-planter": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "adit-entry-survey-chamber": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "advection-fog-demister": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "aeolian-sand-culture-tray": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "aeolian-sealed-dripper": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "ambient-floor-audition-vault": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anorthosite-block-quench-pit": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anoxic-parchment-cabinet": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "anoxic-sourdough-crock": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ashfall-shielded-viewing-deck": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "aufeis-jacketed-cheese-vault": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "barophilic-pressure-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "basalt-bed-kettle": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "benthic-range-pressure-calibrator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "blockfield-guest-lodge": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "bora-rated-cliff-walkway": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "brine-flat-field-retreat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "brine-mist-fogponic-rack": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "caliche-sealed-pottery-vault": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "chott-air-spice-tray": {
+        "CSEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "clathrate-cooled-spirits-hold": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "compacted-loess-speech-room": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "conidial-load-filter-bank": {
+        "CSEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "cryoplanation-terrace-bunkhouse": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "cryptoendolith-shield-stone-case": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "cryptogamic-dust-filter-drum": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "desorption-stage-drying-rack": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "dilatant-phase-printing-bench": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "drift-level-machine-gallery": {
+        "CSEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "dunite-shell-calender-roller": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "Original": 4,
+        "GEO-StatisticsAddition": 5,
+        "CSEO": 6
+      },
+      "enthalpy-wheel-conditioning-bay": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "equilibrium-moisture-storage-silo": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "estuarine-mud-viewing-capsule": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-dairy-cellar": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-film-cold-store": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "evaporite-mineral-brining-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "falling-rate-belt-dryer": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ferrite-stage-induction-bath": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fetch-limited-pontoon-stage": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "firn-core-acoustic-test-cell": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-line-bothy": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-probe-calibration-bench": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-sealed-grain-locker": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "flaw-lead-sighting-deck": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "flint-temper-glost-kiln": {
+        "CSEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "foehn-sheltered-ridge-lookout": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "footwall-drive-fabrication-bay": {
+        "AgenticGEO": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "fulvic-bath-scouring-tank": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fumarole-fed-steeping-urn": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "gas-shielded-fumarole-station": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "gibber-plain-collection-hopper": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "gilgai-cycle-test-chamber": {
+        "AgenticGEO": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "glass-transition-noodle-dryer": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "gley-bath-steeping-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "graded-tephra-collector": {
+        "AgenticGEO": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "graupel-chilled-infusion-carafe": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "gypcrete-pack-hardness-filter": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "haboob-rated-observation-mast": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halocline-dive-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halophile-culture-brine-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halophile-culture-dye-vat": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hyaloclastite-vent-imaging-post": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hygroscopic-trap-film-canister": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "hyporheic-flow-sand-column": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "impact-damped-rehearsal-loft": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "infrasound-monitoring-booth": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "infrasound-pressure-reference-cell": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "isopiestic-hold-warping-frame": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "jokulhlaup-rated-river-stage": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      }
+    },
+    "summary": {
+      "group": "Grok (product URLs unless noted)",
+      "condition": "$\\pm0.2\\%$",
+      "adjusted": false,
+      "n": 80,
+      "top1_counts": [
+        0,
+        54,
+        7,
+        6,
+        4,
+        9
+      ],
+      "rank_sums": [
+        467,
+        177,
+        240,
+        241,
+        290,
+        265
+      ],
+      "cells": [
+        "0.0 / 5.84",
+        "67.5 / 2.21",
+        "8.8 / 3.00",
+        "7.5 / 3.01",
+        "5.0 / 3.63",
+        "11.3 / 3.31"
+      ],
+      "margin": "56.3",
+      "spread": "3.63"
+    }
+  },
+  {
+    "condition_id": "c14",
+    "matrix": {
+      "actinic-shielded-print-cabinet": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "active-layer-thaw-bed-planter": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "adit-entry-survey-chamber": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "advection-fog-demister": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "aeolian-sand-culture-tray": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "aeolian-sealed-dripper": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "ambient-floor-audition-vault": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anchor-ice-launch-cradle": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "andosol-mix-rooting-box": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "anorthosite-block-quench-pit": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "anoxic-parchment-cabinet": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "anoxic-sourdough-crock": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ashfall-shielded-viewing-deck": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "aufeis-jacketed-cheese-vault": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "austenitic-hold-annealing-oven": {
+        "AgenticGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CORE": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "barophilic-pressure-vat": {
+        "CSEO": 1,
+        "CORE": 2,
+        "EGEO": 3,
+        "Original": 4,
+        "AgenticGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "basalt-bed-kettle": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "benthic-range-pressure-calibrator": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "Original": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "blockfield-guest-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "bora-rated-cliff-walkway": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "brine-flat-field-retreat": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "brine-mist-fogponic-rack": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "caliche-sealed-pottery-vault": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "chott-air-spice-tray": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "clathrate-cooled-spirits-hold": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "coincidence-dip-test-chamber": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "compacted-loess-speech-room": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "conidial-load-filter-bank": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "convergence-monitored-office-suite": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "cryoplanation-terrace-bunkhouse": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "cryptoendolith-shield-stone-case": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "cryptogamic-dust-filter-drum": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "desorption-stage-drying-rack": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "dilatant-phase-printing-bench": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "directional-freeze-brine-separator": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "drift-level-machine-gallery": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "dunite-shell-calender-roller": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "equilibrium-moisture-storage-silo": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "estuarine-mud-viewing-capsule": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-dairy-cellar": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "eutectic-buffered-film-cold-store": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "eutectoid-stage-hardening-retort": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "evaporite-mineral-brining-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "falling-rate-belt-dryer": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ferrite-stage-induction-bath": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fetch-limited-pontoon-stage": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-core-acoustic-test-cell": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "firn-line-bothy": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "firn-probe-calibration-bench": {
+        "GEO-StatisticsAddition": 1,
+        "CORE": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "firn-sealed-grain-locker": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "flaw-lead-sighting-deck": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "flint-temper-glost-kiln": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "foehn-sheltered-ridge-lookout": {
+        "CSEO": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "footwall-drive-fabrication-bay": {
+        "GEO-StatisticsAddition": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "fulvic-bath-scouring-tank": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "fumarole-fed-steeping-urn": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "gas-shielded-fumarole-station": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "geothermal-flash-evaporator": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "gibber-plain-collection-hopper": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CORE": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "gilgai-cycle-test-chamber": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "glass-transition-noodle-dryer": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gley-bath-steeping-vat": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "graded-tephra-collector": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "graupel-chilled-infusion-carafe": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gypcrete-pack-hardness-filter": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "haboob-rated-observation-mast": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "halocline-dive-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halocline-trimmed-dive-dolly": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "halophile-culture-brine-tun": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "halophile-culture-dye-vat": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "hyaloclastite-vent-imaging-post": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "hygroscopic-trap-film-canister": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "hyporheic-flow-sand-column": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "impact-damped-rehearsal-loft": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "infrasound-monitoring-booth": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "infrasound-pressure-reference-cell": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "isopiestic-hold-warping-frame": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "CORE": 5,
+        "Original": 6
+      },
+      "jokulhlaup-rated-river-stage": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "enthalpy-wheel-conditioning-bay": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "graded-tephra-slow-filter": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CORE": 4,
+        "GEO-StatisticsAddition": 5,
+        "CSEO": 6
+      }
+    },
+    "summary": {
+      "group": "Grok (product URLs unless noted)",
+      "condition": "Brand URL, $\\pm0.2\\%$",
+      "adjusted": false,
+      "n": 80,
+      "top1_counts": [
+        1,
+        57,
+        3,
+        7,
+        2,
+        10
+      ],
+      "rank_sums": [
+        465,
+        163,
+        247,
+        219,
+        306,
+        280
+      ],
+      "cells": [
+        "1.3 / 5.81",
+        "71.3 / 2.04",
+        "3.8 / 3.09",
+        "8.8 / 2.74",
+        "2.5 / 3.83",
+        "12.5 / 3.50"
+      ],
+      "margin": "58.8",
+      "spread": "3.78"
+    }
+  },
+  {
+    "condition_id": "c18",
+    "matrix": {
+      "actinic-shielded-print-cabinet": {
+        "CORE": 1,
+        "Original": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "CSEO": 6
+      },
+      "active-layer-thaw-bed-planter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "adit-entry-survey-chamber": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "advection-fog-demister": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "aeolian-sand-culture-tray": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "aeolian-sealed-dripper": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ambient-floor-audition-vault": {
+        "AgenticGEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "anchor-ice-launch-cradle": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "andosol-mix-rooting-box": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "anorthosite-block-quench-pit": {
+        "CORE": 1,
+        "EGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "anoxic-parchment-cabinet": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "anoxic-sourdough-crock": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "ashfall-shielded-viewing-deck": {
+        "CSEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "aufeis-jacketed-cheese-vault": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "austenitic-hold-annealing-oven": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "barophilic-pressure-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "basalt-bed-kettle": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "Original": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "AgenticGEO": 6
+      },
+      "benthic-range-pressure-calibrator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "blockfield-guest-lodge": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "AgenticGEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "bora-rated-cliff-walkway": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "brine-flat-field-retreat": {
+        "Original": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "CORE": 6
+      },
+      "brine-mist-fogponic-rack": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "caliche-sealed-pottery-vault": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "Original": 6
+      },
+      "chott-air-spice-tray": {
+        "Original": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "clathrate-cooled-spirits-hold": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "coincidence-dip-test-chamber": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "compacted-loess-speech-room": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "conidial-load-filter-bank": {
+        "CSEO": 1,
+        "CORE": 2,
+        "Original": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "AgenticGEO": 6
+      },
+      "convergence-monitored-office-suite": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "cryoplanation-terrace-bunkhouse": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "AgenticGEO": 6
+      },
+      "cryptoendolith-shield-stone-case": {
+        "Original": 1,
+        "CORE": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "cryptogamic-dust-filter-drum": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "desorption-stage-drying-rack": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "dilatant-phase-printing-bench": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "Original": 4,
+        "EGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "directional-freeze-brine-separator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "drift-level-machine-gallery": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "dunite-shell-calender-roller": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "enthalpy-wheel-conditioning-bay": {
+        "AgenticGEO": 1,
+        "CORE": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "equilibrium-moisture-storage-silo": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "estuarine-mud-viewing-capsule": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "eutectic-buffered-dairy-cellar": {
+        "Original": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "AgenticGEO": 6
+      },
+      "eutectic-buffered-film-cold-store": {
+        "GEO-StatisticsAddition": 1,
+        "Original": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "CORE": 6
+      },
+      "eutectoid-stage-hardening-retort": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "evaporite-mineral-brining-tun": {
+        "AgenticGEO": 1,
+        "CSEO": 2,
+        "CORE": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "falling-rate-belt-dryer": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "GEO-StatisticsAddition": 5,
+        "EGEO": 6
+      },
+      "ferrite-stage-induction-bath": {
+        "EGEO": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "fetch-limited-pontoon-stage": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "CORE": 6
+      },
+      "firn-core-acoustic-test-cell": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "firn-line-bothy": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "CORE": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "firn-probe-calibration-bench": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "firn-sealed-grain-locker": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "flaw-lead-sighting-deck": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "flint-temper-glost-kiln": {
+        "Original": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CORE": 4,
+        "CSEO": 5,
+        "EGEO": 6
+      },
+      "foehn-sheltered-ridge-lookout": {
+        "AgenticGEO": 1,
+        "Original": 2,
+        "CSEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "CORE": 6
+      },
+      "footwall-drive-fabrication-bay": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "fulvic-bath-scouring-tank": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "fumarole-fed-steeping-urn": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "gas-shielded-fumarole-station": {
+        "AgenticGEO": 1,
+        "Original": 2,
+        "GEO-StatisticsAddition": 3,
+        "CORE": 4,
+        "EGEO": 5,
+        "CSEO": 6
+      },
+      "geothermal-flash-evaporator": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "gibber-plain-collection-hopper": {
+        "Original": 1,
+        "CORE": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "EGEO": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "gilgai-cycle-test-chamber": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "glass-transition-noodle-dryer": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "CSEO": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "gley-bath-steeping-vat": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "graded-tephra-collector": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "graded-tephra-slow-filter": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "graupel-chilled-infusion-carafe": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "gypcrete-pack-hardness-filter": {
+        "CORE": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "EGEO": 6
+      },
+      "haboob-rated-observation-mast": {
+        "CORE": 1,
+        "CSEO": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halocline-dive-lodge": {
+        "CORE": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "halocline-trimmed-dive-dolly": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "halophile-culture-brine-tun": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "AgenticGEO": 4,
+        "Original": 5,
+        "GEO-StatisticsAddition": 6
+      },
+      "halophile-culture-dye-vat": {
+        "GEO-StatisticsAddition": 1,
+        "EGEO": 2,
+        "AgenticGEO": 3,
+        "CORE": 4,
+        "Original": 5,
+        "CSEO": 6
+      },
+      "hyaloclastite-vent-imaging-post": {
+        "GEO-StatisticsAddition": 1,
+        "AgenticGEO": 2,
+        "EGEO": 3,
+        "CORE": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "hygroscopic-trap-film-canister": {
+        "EGEO": 1,
+        "GEO-StatisticsAddition": 2,
+        "CSEO": 3,
+        "CORE": 4,
+        "AgenticGEO": 5,
+        "Original": 6
+      },
+      "hyporheic-flow-sand-column": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "AgenticGEO": 3,
+        "EGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "impact-damped-rehearsal-loft": {
+        "CORE": 1,
+        "EGEO": 2,
+        "CSEO": 3,
+        "GEO-StatisticsAddition": 4,
+        "Original": 5,
+        "AgenticGEO": 6
+      },
+      "infrasound-monitoring-booth": {
+        "AgenticGEO": 1,
+        "EGEO": 2,
+        "CORE": 3,
+        "CSEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "infrasound-pressure-reference-cell": {
+        "CORE": 1,
+        "GEO-StatisticsAddition": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "CSEO": 5,
+        "Original": 6
+      },
+      "isopiestic-hold-warping-frame": {
+        "CORE": 1,
+        "CSEO": 2,
+        "EGEO": 3,
+        "AgenticGEO": 4,
+        "GEO-StatisticsAddition": 5,
+        "Original": 6
+      },
+      "jokulhlaup-rated-river-stage": {
+        "EGEO": 1,
+        "AgenticGEO": 2,
+        "GEO-StatisticsAddition": 3,
+        "CSEO": 4,
+        "Original": 5,
+        "CORE": 6
+      }
+    },
+    "summary": {
+      "group": "Gemini (product URLs)",
+      "condition": "$\\pm0.2\\%$",
+      "adjusted": false,
+      "n": 80,
+      "top1_counts": [
+        8,
+        53,
+        2,
+        6,
+        7,
+        4
+      ],
+      "rank_sums": [
+        390,
+        161,
+        277,
+        260,
+        286,
+        306
+      ],
+      "cells": [
+        "10.0 / 4.88",
+        "66.3 / 2.01",
+        "2.5 / 3.46",
+        "7.5 / 3.25",
+        "8.8 / 3.58",
+        "5.0 / 3.83"
+      ],
+      "margin": "56.3",
+      "spread": "2.86"
+    }
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "category_id": "andosol-mix-rooting-box",
+  "condition_id": "c08",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Drovane Chamber 146 GEO-StatisticsAddition",
+      "Drovane Chamber 146 Original",
+      "Drovane Chamber 146 CORE",
+      "Drovane Chamber 146 CSEO",
+      "Drovane Chamber 146 EGEO",
+      "Drovane Chamber 146 AgenticGEO"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Drovane Chamber 146 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/geo-statisticsaddition",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6239.39 per unit; price set after acceptance",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Chamber 146 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/original",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6240.93 per unit; price set after acceptance",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Chamber 146 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/core",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6245.24 per unit; price set after acceptance",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Chamber 146 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/cseo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6248.50 per unit; price set after acceptance",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Chamber 146 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/egeo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6253.32 per unit; price set after acceptance",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Drovane Chamber 146 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/agenticgeo",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 6258.69 per unit; price set after acceptance",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest andosol-mix rooting box\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/10d5893140b7/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Drovane Chamber 146 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/original.html"
+      },
+      "CORE": {
+        "name": "Drovane Chamber 146 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/core.html"
+      },
+      "CSEO": {
+        "name": "Drovane Chamber 146 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/cseo.html"
+      },
+      "EGEO": {
+        "name": "Drovane Chamber 146 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Drovane Chamber 146 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Drovane Chamber 146 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "6240.93",
+      "CORE": "6245.24",
+      "CSEO": "6248.50",
+      "EGEO": "6253.32",
+      "AgenticGEO": "6258.69",
+      "GEO-StatisticsAddition": "6239.39"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/10d5893140b7/"
+  },
+  "ranks": {
+    "GEO-StatisticsAddition": 1,
+    "Original": 2,
+    "CORE": 3,
+    "CSEO": 4,
+    "EGEO": 5,
+    "AgenticGEO": 6
+  },
+  "source_sha256": "558f0cce45e74a047595ffc4e42285b7180ba141c399bbdacd692be96fdd31e7",
+  "name_to_method": {
+    "Drovane Chamber 146 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Drovane Chamber 146 Original": "Original",
+    "Drovane Chamber 146 CORE": "CORE",
+    "Drovane Chamber 146 CSEO": "CSEO",
+    "Drovane Chamber 146 EGEO": "EGEO",
+    "Drovane Chamber 146 AgenticGEO": "AgenticGEO"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "model": "GPT-6",
+    "effort": "High",
+    "temporary": true
+  },
+  "condition_settings": "settings.json"
+}

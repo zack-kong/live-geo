@@ -1,0 +1,155 @@
+{
+  "category_id": "gley-bath-steeping-vat",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Ellmarch Post 80 CORE",
+      "Ellmarch Post 80 EGEO",
+      "Ellmarch Post 80 AgenticGEO",
+      "Ellmarch Post 80 GEO-StatisticsAddition",
+      "Ellmarch Post 80 CSEO",
+      "Ellmarch Post 80 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Ellmarch Post 80 Original",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2199.26 Listed",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Post 80 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2203.43 Listed",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Post 80 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2199.36 Listed",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Post 80 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2203.97 Listed",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Post 80 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2203.49 Listed",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Ellmarch Post 80 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 2201.37 Listed",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest gley-bath steeping vat\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/original.html\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/core.html\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/cseo.html\nhttps://live.243324252.cfd/s/px80v1/1651ca404381/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Ellmarch Post 80 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/original.html"
+      },
+      "CORE": {
+        "name": "Ellmarch Post 80 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/core.html"
+      },
+      "CSEO": {
+        "name": "Ellmarch Post 80 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/cseo.html"
+      },
+      "EGEO": {
+        "name": "Ellmarch Post 80 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Ellmarch Post 80 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Ellmarch Post 80 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/1651ca404381/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "2199.26",
+      "CORE": "2199.36",
+      "CSEO": "2203.49",
+      "EGEO": "2201.37",
+      "AgenticGEO": "2203.43",
+      "GEO-StatisticsAddition": "2203.97"
+    },
+    "local_method_order": [
+      "EGEO",
+      "Original",
+      "GEO-StatisticsAddition",
+      "CSEO",
+      "CORE",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/original.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/core.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/gley-bath-steeping-vat/ellmarch-post-80/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/1651ca404381/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/original.html",
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/core.html",
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/1651ca404381/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "AgenticGEO": 3,
+    "GEO-StatisticsAddition": 4,
+    "CSEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "b4da72628648f301e853cbe3d10f5b1edb135a21b4777fbe7c6102d08f7ccddb",
+  "name_to_method": {
+    "Ellmarch Post 80 CORE": "CORE",
+    "Ellmarch Post 80 EGEO": "EGEO",
+    "Ellmarch Post 80 AgenticGEO": "AgenticGEO",
+    "Ellmarch Post 80 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Ellmarch Post 80 CSEO": "CSEO",
+    "Ellmarch Post 80 Original": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

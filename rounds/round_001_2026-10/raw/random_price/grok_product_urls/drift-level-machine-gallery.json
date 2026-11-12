@@ -1,0 +1,155 @@
+{
+  "category_id": "drift-level-machine-gallery",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Hoskva Works 2 CSEO drift-level machine gallery",
+      "Hoskva Works 2 AgenticGEO drift-level machine gallery",
+      "Hoskva Works 2 GEO-StatisticsAddition drift-level machine gallery",
+      "Hoskva Works 2 EGEO drift-level machine gallery",
+      "Hoskva Works 2 Original drift-level machine gallery",
+      "Hoskva Works 2 CORE"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Hoskva Works 2 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 837.15 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Hoskva Works 2 AgenticGEO drift-level machine gallery",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 836.50 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Hoskva Works 2 Original drift-level machine gallery",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 836.42 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Hoskva Works 2 CSEO drift-level machine gallery",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 836.07 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Hoskva Works 2 GEO-StatisticsAddition drift-level machine gallery",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 837.73 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Hoskva Works 2 EGEO drift-level machine gallery",
+        "product_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 834.98 per session",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest drift-level machine gallery\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/core.html\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/original.html\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/cseo.html\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/76ab4790b570/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Hoskva Works 2 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/original.html"
+      },
+      "CORE": {
+        "name": "Hoskva Works 2 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/core.html"
+      },
+      "CSEO": {
+        "name": "Hoskva Works 2 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/cseo.html"
+      },
+      "EGEO": {
+        "name": "Hoskva Works 2 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Hoskva Works 2 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Hoskva Works 2 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "836.42",
+      "CORE": "837.15",
+      "CSEO": "836.07",
+      "EGEO": "834.98",
+      "AgenticGEO": "836.50",
+      "GEO-StatisticsAddition": "837.73"
+    },
+    "local_method_order": [
+      "GEO-StatisticsAddition",
+      "CORE",
+      "CSEO",
+      "EGEO",
+      "Original",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/core.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/original.html",
+      "https://live.243324252.cfd/s/cjon16final/subterranean-workspaces/drift-level-machine-gallery/hoskva-works-2/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/76ab4790b570/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/core.html",
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/original.html",
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/76ab4790b570/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CSEO": 1,
+    "AgenticGEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "EGEO": 4,
+    "Original": 5,
+    "CORE": 6
+  },
+  "source_sha256": "c213ddbaa377af5a79af93a006f177daf0b75fc4ab085871eaf870c69fc896be",
+  "name_to_method": {
+    "Hoskva Works 2 CSEO drift-level machine gallery": "CSEO",
+    "Hoskva Works 2 AgenticGEO drift-level machine gallery": "AgenticGEO",
+    "Hoskva Works 2 GEO-StatisticsAddition drift-level machine gallery": "GEO-StatisticsAddition",
+    "Hoskva Works 2 EGEO drift-level machine gallery": "EGEO",
+    "Hoskva Works 2 Original drift-level machine gallery": "Original",
+    "Hoskva Works 2 CORE": "CORE"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

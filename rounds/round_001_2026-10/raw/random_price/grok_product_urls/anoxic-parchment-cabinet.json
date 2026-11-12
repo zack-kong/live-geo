@@ -1,0 +1,155 @@
+{
+  "category_id": "anoxic-parchment-cabinet",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Estavel Station 58 GEO-StatisticsAddition anoxic parchment cabinet",
+      "Estavel Station 58 CSEO anoxic parchment cabinet",
+      "Estavel Station 58 EGEO anoxic parchment cabinet",
+      "Estavel Station 58 AgenticGEO anoxic parchment cabinet",
+      "Estavel Station 58 CORE anoxic parchment cabinet",
+      "Estavel Station 58 Original anoxic parchment cabinet"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Estavel Station 58 Original anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 31016.92",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      },
+      {
+        "product_name": "Estavel Station 58 AgenticGEO anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 30978.18",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      },
+      {
+        "product_name": "Estavel Station 58 CORE anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 30974.34",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      },
+      {
+        "product_name": "Estavel Station 58 EGEO anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 31011.13",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      },
+      {
+        "product_name": "Estavel Station 58 CSEO anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 30958.38",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      },
+      {
+        "product_name": "Estavel Station 58 GEO-StatisticsAddition anoxic parchment cabinet",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 30952.89",
+        "access_limitation": "Concept listing; no order can be placed; feedback illustrative"
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest anoxic parchment cabinet\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/original.html\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/core.html\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/egeo.html\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/cseo.html\nhttps://live.243324252.cfd/s/px80v1/a45a6b9583aa/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Estavel Station 58 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/original.html"
+      },
+      "CORE": {
+        "name": "Estavel Station 58 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/core.html"
+      },
+      "CSEO": {
+        "name": "Estavel Station 58 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/cseo.html"
+      },
+      "EGEO": {
+        "name": "Estavel Station 58 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Estavel Station 58 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Estavel Station 58 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "31016.92",
+      "CORE": "30974.34",
+      "CSEO": "30958.38",
+      "EGEO": "31011.13",
+      "AgenticGEO": "30978.18",
+      "GEO-StatisticsAddition": "30952.89"
+    },
+    "local_method_order": [
+      "EGEO",
+      "AgenticGEO",
+      "CORE",
+      "Original",
+      "CSEO",
+      "GEO-StatisticsAddition"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/core.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/original.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/anoxic-parchment-cabinet/estavel-station-58/geo-statisticsaddition.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/original.html",
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/core.html",
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/a45a6b9583aa/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "GEO-StatisticsAddition": 1,
+    "CSEO": 2,
+    "EGEO": 3,
+    "AgenticGEO": 4,
+    "CORE": 5,
+    "Original": 6
+  },
+  "source_sha256": "7f8dfd3f111283c9d1226bf9942bd3f3d4cfbf3615ae2ee926a304855dccb971",
+  "name_to_method": {
+    "Estavel Station 58 GEO-StatisticsAddition anoxic parchment cabinet": "GEO-StatisticsAddition",
+    "Estavel Station 58 CSEO anoxic parchment cabinet": "CSEO",
+    "Estavel Station 58 EGEO anoxic parchment cabinet": "EGEO",
+    "Estavel Station 58 AgenticGEO anoxic parchment cabinet": "AgenticGEO",
+    "Estavel Station 58 CORE anoxic parchment cabinet": "CORE",
+    "Estavel Station 58 Original anoxic parchment cabinet": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

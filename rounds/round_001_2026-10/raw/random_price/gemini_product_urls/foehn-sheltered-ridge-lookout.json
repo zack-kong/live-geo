@@ -1,0 +1,141 @@
+{
+  "category_id": "foehn-sheltered-ridge-lookout",
+  "condition_id": "c18",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html"
+    ],
+    "reading_log": [
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      },
+      {
+        "product_name": "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html",
+        "product_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "Page could not be fetched due to browsing limitations."
+      }
+    ],
+    "limitations": "All product pages were inaccessible due to external live web page browsing limitations."
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest foehn-sheltered ridge lookout\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/original.html\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/a47957a61591/core.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Estavel Post 109 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html"
+      },
+      "CORE": {
+        "name": "Estavel Post 109 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html"
+      },
+      "CSEO": {
+        "name": "Estavel Post 109 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html"
+      },
+      "EGEO": {
+        "name": "Estavel Post 109 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Estavel Post 109 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Estavel Post 109 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "692.30",
+      "CORE": "693.17",
+      "CSEO": "693.02",
+      "EGEO": "693.48",
+      "AgenticGEO": "693.68",
+      "GEO-StatisticsAddition": "694.77"
+    },
+    "brand_url": "https://live.243324252.cfd/s/px80v1/a47957a61591/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html"
+    ]
+  },
+  "ranks": {
+    "AgenticGEO": 1,
+    "Original": 2,
+    "CSEO": 3,
+    "EGEO": 4,
+    "GEO-StatisticsAddition": 5,
+    "CORE": 6
+  },
+  "source_sha256": "14dc5da9a89b845ba08835ba762b6cdc118447232b70080a86c7a3b764df4b5e",
+  "name_to_method": {
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/agenticgeo.html": "AgenticGEO",
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/original.html": "Original",
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/cseo.html": "CSEO",
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/egeo.html": "EGEO",
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/geo-statisticsaddition.html": "GEO-StatisticsAddition",
+    "https://live.243324252.cfd/s/px80v1/a47957a61591/core.html": "CORE"
+  },
+  "recorded_settings": {
+    "displayed_version": "3.6 Thinking",
+    "final_mode": "Thinking",
+    "temporary": false
+  },
+  "condition_settings": "settings.json"
+}

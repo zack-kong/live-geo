@@ -1,0 +1,157 @@
+{
+  "category_id": "geothermal-flash-evaporator",
+  "condition_id": "c18",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Oskarn Post 114 CORE",
+      "Oskarn Post 114 CSEO",
+      "Oskarn Post 114 AgenticGEO",
+      "Oskarn Post 114 GEO-StatisticsAddition",
+      "Oskarn Post 114 Original",
+      "Oskarn Post 114 EGEO"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Oskarn Post 114 CORE",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4596.03",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 Original",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4606.96",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4591.90",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4603.77",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4606.46",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/egeo.html",
+        "description_read": "none",
+        "comments_displayed": null,
+        "comments_read": null,
+        "displayed_price": null,
+        "access_limitation": "The product page was not accessed due to reaching the maximum browsing tool limit."
+      }
+    ],
+    "limitations": "The product page for Oskarn Post 114 EGEO was not accessed or read due to reaching the maximum tool call limit."
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest geothermal flash evaporator\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/core.html\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/original.html\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/cseo.html\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/agenticgeo.html\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px18v1/e6d5e4e8afba/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Oskarn Post 114 Original",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/original.html"
+      },
+      "CORE": {
+        "name": "Oskarn Post 114 CORE",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/core.html"
+      },
+      "CSEO": {
+        "name": "Oskarn Post 114 CSEO",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/cseo.html"
+      },
+      "EGEO": {
+        "name": "Oskarn Post 114 EGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Oskarn Post 114 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Oskarn Post 114 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "4606.96",
+      "CORE": "4596.03",
+      "CSEO": "4591.90",
+      "EGEO": "4590.04",
+      "AgenticGEO": "4603.77",
+      "GEO-StatisticsAddition": "4606.46"
+    },
+    "local_method_order": [
+      "CORE",
+      "CSEO",
+      "GEO-StatisticsAddition",
+      "AgenticGEO",
+      "EGEO",
+      "Original"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/core.html",
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/water-treatment-and-distillation-apparatus/geothermal-flash-evaporator/oskarn-post-114/original.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/core.html",
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/original.html",
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/cseo.html",
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/agenticgeo.html",
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px18v1/e6d5e4e8afba/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "AgenticGEO": 3,
+    "GEO-StatisticsAddition": 4,
+    "Original": 5,
+    "EGEO": 6
+  },
+  "source_sha256": "239519ebd0da42df54e3a9be86880acc59d7fe480c00eb56cc8aa631bedf7363",
+  "name_to_method": {
+    "Oskarn Post 114 CORE": "CORE",
+    "Oskarn Post 114 CSEO": "CSEO",
+    "Oskarn Post 114 AgenticGEO": "AgenticGEO",
+    "Oskarn Post 114 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Oskarn Post 114 Original": "Original",
+    "Oskarn Post 114 EGEO": "EGEO"
+  },
+  "recorded_settings": {
+    "displayed_version": "3.6 Thinking",
+    "final_mode": "Thinking",
+    "temporary": false
+  },
+  "condition_settings": "settings.json"
+}

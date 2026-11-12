@@ -1,0 +1,85 @@
+{
+  "category_id": "footwall-drive-fabrication-bay",
+  "brand": "Nordreth Unit 112",
+  "method": "Original",
+  "name": "Nordreth Unit 112 Original",
+  "source_page_path": "/subterranean-workspaces/footwall-drive-fabrication-bay/nordreth-unit-112/original.html",
+  "source_html_sha256": "8873854d734ce998bbadab3d320cbc92ed46ec658506cfadbafebf25301a5c89",
+  "price_display": "USD 1623.05 per session",
+  "price_condition": "frozen +/-0.2%",
+  "specifications": {
+    "depth below grade": "160 metres",
+    "floor area": "575 square metres",
+    "occupancy": "53 people",
+    "session length": "10 hours",
+    "session fee": "1623.05 dollars",
+    "access route": "stair shaft"
+  },
+  "description": "This listing is a footwall-drive fabrication bay listed with depth below grade 160 metres, floor area 575 square metres, occupancy 53 people. Its remaining stated figures are session length 10 hours, session fee set after acceptance, access route stair shaft. Every one of them is quoted from the same six axes the other listings in this category are described on.",
+  "description_html": "<p>This listing is a footwall-drive fabrication bay listed with depth below grade 160 metres, floor area 575 square metres, occupancy 53 people. Its remaining stated figures are session length 10 hours, session fee set after acceptance, access route stair shaft. Every one of them is quoted from the same six axes the other listings in this category are described on.</p>",
+  "reviews": [
+    {
+      "review_id": "u1",
+      "title": "Does what it says: occupancy 53 people",
+      "text": "Second footwall-drive fabrication bay we have run; this listing replaced an older one. On paper the occupancy is 53 people, and that matched the requirement exactly. Would choose this listing again on the same grounds.",
+      "body_html": "<p>Second footwall-drive fabrication bay we have run; this listing replaced an older one. On paper the occupancy is 53 people, and that matched the requirement exactly. Would choose this listing again on the same grounds.</p>",
+      "author": "Sanna Kestrel",
+      "date": "2026-07-28",
+      "rating": "4"
+    },
+    {
+      "review_id": "u2",
+      "title": "This listing against the unit it replaced",
+      "text": "Shortlisted three footwall-drive fabrication bay units and this listing was the one we kept. This listing replaced a unit we had outgrown, and the difference shows day to day. Worth knowing before you commit to this listing.",
+      "body_html": "<p>Shortlisted three footwall-drive fabrication bay units and this listing was the one we kept. This listing replaced a unit we had outgrown, and the difference shows day to day. Worth knowing before you commit to this listing.</p>",
+      "author": "Katrin Vasilenko",
+      "date": "2026-07-26",
+      "rating": "4"
+    },
+    {
+      "review_id": "u3",
+      "title": "Worth knowing before you order this listing",
+      "text": "Went through the whole footwall-drive fabrication bay catalogue twice before this listing. The documentation with this listing is thin, and we worked out the rest ourselves. It has not changed what we think of this listing overall.",
+      "body_html": "<p>Went through the whole footwall-drive fabrication bay catalogue twice before this listing. The documentation with this listing is thin, and we worked out the rest ourselves. It has not changed what we think of this listing overall.</p>",
+      "author": "Lise Ilkka",
+      "date": "2026-07-24",
+      "rating": "3"
+    },
+    {
+      "review_id": "u4",
+      "title": "Does what it says: session length 10 hours",
+      "text": "This listing is our third footwall-drive fabrication bay and the first one specified properly. Its session length reads 10 hours, and that is the whole reason it is here. On the other axes this listing sits where the rest of the footwall-drive fabrication bay listings sit.",
+      "body_html": "<p>This listing is our third footwall-drive fabrication bay and the first one specified properly. Its session length reads 10 hours, and that is the whole reason it is here. On the other axes this listing sits where the rest of the footwall-drive fabrication bay listings sit.</p>",
+      "author": "Toma Ostrem",
+      "date": "2026-07-19",
+      "rating": "5"
+    },
+    {
+      "review_id": "u5",
+      "title": "Ours is not a heavy-duty use for this listing",
+      "text": "Bought this listing after a long comparison against the rest of this footwall-drive fabrication bay shortlist. We put this listing on the awkward jobs that the rest of the kit cannot take. This listing is still the right call for us.",
+      "body_html": "<p>Bought this listing after a long comparison against the rest of this footwall-drive fabrication bay shortlist. We put this listing on the awkward jobs that the rest of the kit cannot take. This listing is still the right call for us.</p>",
+      "author": "Yusra Norrland",
+      "date": "2026-07-11",
+      "rating": "5"
+    },
+    {
+      "review_id": "u6",
+      "title": "This listing after a year of steady use",
+      "text": "Replaced a much older footwall-drive fabrication bay with this listing last season. Two seasons in, this listing has not needed anything we did not plan for. Others may weigh it differently, but this listing suits us.",
+      "body_html": "<p>Replaced a much older footwall-drive fabrication bay with this listing last season. Two seasons in, this listing has not needed anything we did not plan for. Others may weigh it differently, but this listing suits us.</p>",
+      "author": "Oskar Grieve",
+      "date": "2026-07-03",
+      "rating": "4"
+    },
+    {
+      "review_id": "u7",
+      "title": "Stair shaft, which is what we needed from this listing",
+      "text": "Have had this listing in service long enough to say something useful about this footwall-drive fabrication bay. We needed stair shaft rather than the alternatives, and this listing states it. No complaints beyond the access route of stair shaft, and no surprises either.",
+      "body_html": "<p>Have had this listing in service long enough to say something useful about this footwall-drive fabrication bay. We needed stair shaft rather than the alternatives, and this listing states it. No complaints beyond the access route of stair shaft, and no surprises either.</p>",
+      "author": "Ruben Sarto",
+      "date": "2026-06-26",
+      "rating": "5"
+    }
+  ]
+}

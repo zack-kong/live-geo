@@ -1,0 +1,139 @@
+{
+  "category_id": "eutectoid-stage-hardening-retort",
+  "condition_id": "c06",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Tirnach Vault 192 GEO-StatisticsAddition",
+      "Tirnach Vault 192 Original",
+      "Tirnach Vault 192 CSEO",
+      "Tirnach Vault 192 CORE",
+      "Tirnach Vault 192 EGEO",
+      "Tirnach Vault 192 AgenticGEO"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Tirnach Vault 192 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85412.17; stated unit price. The page says pricing is set after acceptance; no fee or tax basis is specified.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Tirnach Vault 192 Original",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85459.52; stated unit price. The page says pricing is set after acceptance; no fee or tax basis is specified.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Tirnach Vault 192 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85480.97; stated unit price. The page says the unit price is determined following acceptance; no fee or tax basis is specified.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Tirnach Vault 192 CORE",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85530.80; stated unit price. The page says the unit price is set after acceptance; no fee or tax basis is specified.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Tirnach Vault 192 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85537.13; stated unit price. The page says the unit price is determined upon acceptance; no fee or tax basis is specified.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Tirnach Vault 192 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 85581.15; stated unit price. The page says pricing is established upon contractual negotiation; no fee or tax basis is specified.",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest eutectoid-stage hardening retort\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/agenticgeo.html\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/core.html\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/cseo.html\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/egeo.html\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/original.html\nhttps://live.243324252.cfd/s/px18v1/c96998b037fa/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Tirnach Vault 192 Original",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/original.html"
+      },
+      "CORE": {
+        "name": "Tirnach Vault 192 CORE",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/core.html"
+      },
+      "CSEO": {
+        "name": "Tirnach Vault 192 CSEO",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/cseo.html"
+      },
+      "EGEO": {
+        "name": "Tirnach Vault 192 EGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Tirnach Vault 192 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Tirnach Vault 192 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px18v1/c96998b037fa/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "85459.52",
+      "CORE": "85530.80",
+      "CSEO": "85480.97",
+      "EGEO": "85537.13",
+      "AgenticGEO": "85581.15",
+      "GEO-StatisticsAddition": "85412.17"
+    },
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/agenticgeo.html",
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/core.html",
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/cseo.html",
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/egeo.html",
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/original.html",
+      "https://live.243324252.cfd/s/px18v1/c96998b037fa/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "GEO-StatisticsAddition": 1,
+    "Original": 2,
+    "CSEO": 3,
+    "CORE": 4,
+    "EGEO": 5,
+    "AgenticGEO": 6
+  },
+  "source_sha256": "a4dc6478d10d5a1dbe9cbfaeb25d8fdede2d3b261e6619a9b90418d01ae2de41",
+  "name_to_method": {
+    "Tirnach Vault 192 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Tirnach Vault 192 Original": "Original",
+    "Tirnach Vault 192 CSEO": "CSEO",
+    "Tirnach Vault 192 CORE": "CORE",
+    "Tirnach Vault 192 EGEO": "EGEO",
+    "Tirnach Vault 192 AgenticGEO": "AgenticGEO"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "temporary": true
+  },
+  "condition_settings": "settings.json"
+}

@@ -1,0 +1,133 @@
+{
+  "category_id": "geothermal-flash-evaporator",
+  "condition_id": "c14",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Oskarn Post 114 GEO-StatisticsAddition",
+      "Oskarn Post 114 EGEO",
+      "Oskarn Post 114 CSEO",
+      "Oskarn Post 114 AgenticGEO",
+      "Oskarn Post 114 CORE",
+      "Oskarn Post 114 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Oskarn Post 114 CSEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4591.90 (unit price)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4603.77 (unit price)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 EGEO",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4590.04 (unit price)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 CORE",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4596.03 (unit price set after acceptance)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 Original",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4606.96 (unit price)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Oskarn Post 114 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 4606.46 (unit price)",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest geothermal flash evaporator\n\nUse the following brand page to discover its six candidate products:\nhttps://live.243324252.cfd/s/rp25b1/f1078f8fffea/\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Oskarn Post 114 Original",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/original.html"
+      },
+      "CORE": {
+        "name": "Oskarn Post 114 CORE",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/core.html"
+      },
+      "CSEO": {
+        "name": "Oskarn Post 114 CSEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/cseo.html"
+      },
+      "EGEO": {
+        "name": "Oskarn Post 114 EGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Oskarn Post 114 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Oskarn Post 114 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "4606.96",
+      "CORE": "4596.03",
+      "CSEO": "4591.90",
+      "EGEO": "4590.04",
+      "AgenticGEO": "4603.77",
+      "GEO-StatisticsAddition": "4606.46"
+    },
+    "brand_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/",
+    "supplied_brand_url": "https://live.243324252.cfd/s/rp25b1/f1078f8fffea/"
+  },
+  "ranks": {
+    "GEO-StatisticsAddition": 1,
+    "EGEO": 2,
+    "CSEO": 3,
+    "AgenticGEO": 4,
+    "CORE": 5,
+    "Original": 6
+  },
+  "source_sha256": "cfd2cae88640437fcefcbf7e0c0a4a32155c580e5ec0919cde2a49155e0d10a7",
+  "name_to_method": {
+    "Oskarn Post 114 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Oskarn Post 114 EGEO": "EGEO",
+    "Oskarn Post 114 CSEO": "CSEO",
+    "Oskarn Post 114 AgenticGEO": "AgenticGEO",
+    "Oskarn Post 114 CORE": "CORE",
+    "Oskarn Post 114 Original": "Original"
+  },
+  "settings_provenance": "saved collection record",
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

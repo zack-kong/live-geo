@@ -1,0 +1,18 @@
+{
+  "condition_id": "c14",
+  "evaluator": "Grok",
+  "price_condition": "frozen +/-0.2%",
+  "entry": "brand URL",
+  "n": 80,
+  "raw_directory": "raw/random_price/grok_brand_url",
+  "scores_directory": "scores/random_price/grok_brand_url",
+  "candidate_order": "randomized in server-rendered brand-page responses",
+  "selection": "Final selected observations used in the reported statistics.",
+  "requested_settings": {
+    "mode": "Expert",
+    "private_chat": true
+  },
+  "output_formats": {
+    "structured_model_output": 80
+  }
+}

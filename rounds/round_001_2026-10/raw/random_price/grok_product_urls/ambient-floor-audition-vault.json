@@ -1,0 +1,155 @@
+{
+  "category_id": "ambient-floor-audition-vault",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Nordreth Cabinet 160 CORE",
+      "Nordreth Cabinet 160 EGEO",
+      "Nordreth Cabinet 160 GEO-StatisticsAddition",
+      "Nordreth Cabinet 160 CSEO",
+      "Nordreth Cabinet 160 AgenticGEO",
+      "Nordreth Cabinet 160 Original"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Nordreth Cabinet 160 AgenticGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 183.93 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Cabinet 160 CORE",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 183.96 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Cabinet 160 GEO-StatisticsAddition",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 184.05 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Cabinet 160 EGEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 184.38 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Cabinet 160 Original",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 184.45 per session",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Nordreth Cabinet 160 CSEO",
+        "product_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 184.27 per session",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest ambient-floor audition vault\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/core.html\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/egeo.html\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/original.html\nhttps://live.243324252.cfd/s/px80v1/e72236ab33ae/cseo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Nordreth Cabinet 160 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/original.html"
+      },
+      "CORE": {
+        "name": "Nordreth Cabinet 160 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/core.html"
+      },
+      "CSEO": {
+        "name": "Nordreth Cabinet 160 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/cseo.html"
+      },
+      "EGEO": {
+        "name": "Nordreth Cabinet 160 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Nordreth Cabinet 160 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Nordreth Cabinet 160 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "184.45",
+      "CORE": "183.96",
+      "CSEO": "184.27",
+      "EGEO": "184.38",
+      "AgenticGEO": "183.93",
+      "GEO-StatisticsAddition": "184.05"
+    },
+    "local_method_order": [
+      "CSEO",
+      "CORE",
+      "AgenticGEO",
+      "EGEO",
+      "Original",
+      "GEO-StatisticsAddition"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/core.html",
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/original.html",
+      "https://live.243324252.cfd/s/cjon16final/acoustic-spaces/ambient-floor-audition-vault/nordreth-cabinet-160/geo-statisticsaddition.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/e72236ab33ae/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/core.html",
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/original.html",
+      "https://live.243324252.cfd/s/px80v1/e72236ab33ae/cseo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "EGEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "CSEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "a46db1396281483daf154e67e137893e95ad8a2651c7c7b2e3a6279439225cd8",
+  "name_to_method": {
+    "Nordreth Cabinet 160 CORE": "CORE",
+    "Nordreth Cabinet 160 EGEO": "EGEO",
+    "Nordreth Cabinet 160 GEO-StatisticsAddition": "GEO-StatisticsAddition",
+    "Nordreth Cabinet 160 CSEO": "CSEO",
+    "Nordreth Cabinet 160 AgenticGEO": "AgenticGEO",
+    "Nordreth Cabinet 160 Original": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

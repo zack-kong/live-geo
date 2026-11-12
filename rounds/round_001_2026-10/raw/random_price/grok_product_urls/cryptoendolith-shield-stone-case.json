@@ -1,0 +1,155 @@
+{
+  "category_id": "cryptoendolith-shield-stone-case",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Sundrel Works 80 CORE cryptoendolith-shield stone case",
+      "Sundrel Works 80 GEO-StatisticsAddition cryptoendolith-shield stone case",
+      "Sundrel Works 80 EGEO cryptoendolith-shield stone case",
+      "Sundrel Works 80 CSEO cryptoendolith-shield stone case",
+      "Sundrel Works 80 AgenticGEO cryptoendolith-shield stone case",
+      "Sundrel Works 80 Original cryptoendolith-shield stone case"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Sundrel Works 80 Original cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13737.11 Listed Concept listing. No order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Works 80 AgenticGEO cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13742.65 Listed Concept listing. No order can be placed. Pricing established through mutual agreement.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Works 80 CSEO cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13742.10 Listed Concept listing. No order can be placed. The unit price is determined upon acceptance.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Works 80 EGEO cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13742.24. Unit price is determined upon acceptance.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Works 80 CORE cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13752.79 Listed Concept listing. No order can be placed.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Sundrel Works 80 GEO-StatisticsAddition cryptoendolith-shield stone case",
+        "product_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 13740.92 (unit price set after acceptance)",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest cryptoendolith-shield stone case\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/original.html\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/cseo.html\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/egeo.html\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/core.html\nhttps://live.243324252.cfd/s/px80v1/9db94919f768/geo-statisticsaddition.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Sundrel Works 80 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/original.html"
+      },
+      "CORE": {
+        "name": "Sundrel Works 80 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/core.html"
+      },
+      "CSEO": {
+        "name": "Sundrel Works 80 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/cseo.html"
+      },
+      "EGEO": {
+        "name": "Sundrel Works 80 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Sundrel Works 80 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Sundrel Works 80 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/9db94919f768/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "13737.11",
+      "CORE": "13752.79",
+      "CSEO": "13742.10",
+      "EGEO": "13742.24",
+      "AgenticGEO": "13742.65",
+      "GEO-StatisticsAddition": "13740.92"
+    },
+    "local_method_order": [
+      "AgenticGEO",
+      "EGEO",
+      "CSEO",
+      "GEO-StatisticsAddition",
+      "CORE",
+      "Original"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/agenticgeo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/core.html",
+      "https://live.243324252.cfd/s/cjon16final/archival-and-conservation-equipment/cryptoendolith-shield-stone-case/sundrel-works-80/original.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/9db94919f768/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/original.html",
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/egeo.html",
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/core.html",
+      "https://live.243324252.cfd/s/px80v1/9db94919f768/geo-statisticsaddition.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "GEO-StatisticsAddition": 2,
+    "EGEO": 3,
+    "CSEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "596deb347d1b1ca1e01098d89227d8f9e310b967b6795c08300a739a2bb73cee",
+  "name_to_method": {
+    "Sundrel Works 80 CORE cryptoendolith-shield stone case": "CORE",
+    "Sundrel Works 80 GEO-StatisticsAddition cryptoendolith-shield stone case": "GEO-StatisticsAddition",
+    "Sundrel Works 80 EGEO cryptoendolith-shield stone case": "EGEO",
+    "Sundrel Works 80 CSEO cryptoendolith-shield stone case": "CSEO",
+    "Sundrel Works 80 AgenticGEO cryptoendolith-shield stone case": "AgenticGEO",
+    "Sundrel Works 80 Original cryptoendolith-shield stone case": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

@@ -1,0 +1,155 @@
+{
+  "category_id": "fulvic-bath-scouring-tank",
+  "condition_id": "c12",
+  "output_kind": "structured_model_output",
+  "model_output": {
+    "ranking": [
+      "Fenlow Frame 133 CORE fulvic-bath scouring tank",
+      "Fenlow Frame 133 CSEO fulvic-bath scouring tank",
+      "Fenlow Frame 133 GEO-StatisticsAddition fulvic-bath scouring tank",
+      "Fenlow Frame 133 EGEO fulvic-bath scouring tank",
+      "Fenlow Frame 133 AgenticGEO fulvic-bath scouring tank",
+      "Fenlow Frame 133 Original fulvic-bath scouring tank"
+    ],
+    "reading_log": [
+      {
+        "product_name": "Fenlow Frame 133 CORE fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/core.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8825.33. Unit price set after acceptance.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Fenlow Frame 133 GEO-StatisticsAddition fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/geo-statisticsaddition.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8848.00; unit price set after acceptance.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Fenlow Frame 133 AgenticGEO fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/agenticgeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8844.34 (unit price established upon confirmation of order)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Fenlow Frame 133 Original fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/original.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8839.43; unit price set after acceptance.",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Fenlow Frame 133 CSEO fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/cseo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8817.37 (unit price determined post-acceptance)",
+        "access_limitation": null
+      },
+      {
+        "product_name": "Fenlow Frame 133 EGEO fulvic-bath scouring tank",
+        "product_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/egeo.html",
+        "description_read": "full",
+        "comments_displayed": 7,
+        "comments_read": 7,
+        "displayed_price": "USD 8828.64. Unit price is determined after acceptance.",
+        "access_limitation": null
+      }
+    ],
+    "limitations": null
+  },
+  "input": {
+    "prompt": "You are a helpful assistant. The user query is:\nbest fulvic-bath scouring tank\n\nUse the following six product URLs as the candidate products:\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/core.html\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/geo-statisticsaddition.html\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/agenticgeo.html\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/original.html\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/cseo.html\nhttps://live.243324252.cfd/s/px80v1/de6c8dcb86d1/egeo.html\n\nBefore ranking, open each individual product page and read its product description and all displayed customer comments. Do not judge from the brand-page summaries alone.\n\nAfter reading, recommend the products by producing a ranked list from most to least relevant to the user query. Only use the information provided on these pages.\n\nReturn a JSON object containing:\n\n1. \"ranking\": an array of the six exact product names, ordered from rank 1 (best) to rank 6 (worst).\n\n2. \"reading_log\": one entry per product, containing:\n   - \"product_name\"\n   - \"product_url\"\n   - \"description_read\": \"full\", \"partial\", or \"none\"\n   - \"comments_displayed\": the number of individual comments exposed by the page, or null if unknown\n   - \"comments_read\": the number actually read, or null if unknown\n   - \"displayed_price\": the exact displayed price and fee basis, or null if not read\n   - \"access_limitation\": a brief description of any missing or inaccessible content, or null\n\nThe aggregate review count is not the number of comments displayed. Do not treat it as the number read.\n\nReport access and reading coverage honestly. Do not invent content, counts, or reading percentages.\n\nInclude a \"limitations\" field:\n- Use null if all six descriptions and all individually displayed comments were fully read.\n- Otherwise, describe only the actual access gaps in one sentence of at most 40 words.\n- A larger aggregate review count than the displayed comment count is not an access failure.\n- Do not include ranking explanations or general disclaimers in this field.",
+    "expected": {
+      "Original": {
+        "name": "Fenlow Frame 133 Original",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/original.html"
+      },
+      "CORE": {
+        "name": "Fenlow Frame 133 CORE",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/core.html"
+      },
+      "CSEO": {
+        "name": "Fenlow Frame 133 CSEO",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/cseo.html"
+      },
+      "EGEO": {
+        "name": "Fenlow Frame 133 EGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/egeo.html"
+      },
+      "AgenticGEO": {
+        "name": "Fenlow Frame 133 AgenticGEO",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/agenticgeo.html"
+      },
+      "GEO-StatisticsAddition": {
+        "name": "Fenlow Frame 133 GEO-StatisticsAddition",
+        "url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/geo-statisticsaddition.html"
+      }
+    },
+    "prices": {
+      "Original": "8839.43",
+      "CORE": "8825.33",
+      "CSEO": "8817.37",
+      "EGEO": "8828.64",
+      "AgenticGEO": "8844.34",
+      "GEO-StatisticsAddition": "8848.00"
+    },
+    "local_method_order": [
+      "Original",
+      "GEO-StatisticsAddition",
+      "CORE",
+      "CSEO",
+      "EGEO",
+      "AgenticGEO"
+    ],
+    "local_url_order": [
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/original.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/core.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/cseo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/egeo.html",
+      "https://live.243324252.cfd/s/cjon16final/textile-and-material-craft-equipment/fulvic-bath-scouring-tank/fenlow-frame-133/agenticgeo.html"
+    ],
+    "brand_url": "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/",
+    "supplied_url_order": [
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/core.html",
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/geo-statisticsaddition.html",
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/agenticgeo.html",
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/original.html",
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/cseo.html",
+      "https://live.243324252.cfd/s/px80v1/de6c8dcb86d1/egeo.html"
+    ]
+  },
+  "ranks": {
+    "CORE": 1,
+    "CSEO": 2,
+    "GEO-StatisticsAddition": 3,
+    "EGEO": 4,
+    "AgenticGEO": 5,
+    "Original": 6
+  },
+  "source_sha256": "d31e2b84277b376401800f47398d5e1365e6387daf09406ae61db33d15ede063",
+  "name_to_method": {
+    "Fenlow Frame 133 CORE fulvic-bath scouring tank": "CORE",
+    "Fenlow Frame 133 CSEO fulvic-bath scouring tank": "CSEO",
+    "Fenlow Frame 133 GEO-StatisticsAddition fulvic-bath scouring tank": "GEO-StatisticsAddition",
+    "Fenlow Frame 133 EGEO fulvic-bath scouring tank": "EGEO",
+    "Fenlow Frame 133 AgenticGEO fulvic-bath scouring tank": "AgenticGEO",
+    "Fenlow Frame 133 Original fulvic-bath scouring tank": "Original"
+  },
+  "recorded_settings": {
+    "mode": "Expert"
+  },
+  "condition_settings": "settings.json"
+}

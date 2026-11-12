@@ -1,0 +1,22 @@
+{
+  "condition_id": "c06",
+  "evaluator": "ChatGPT",
+  "price_condition": "frozen +/-0.2%",
+  "entry": "product URLs",
+  "n": 80,
+  "raw_directory": "raw/random_price/chatgpt_product_urls",
+  "scores_directory": "scores/random_price/chatgpt_product_urls",
+  "candidate_order": "locally shuffled six-product URL sequence saved in each prompt",
+  "selection": "Final selected observations used in the reported statistics.",
+  "requested_settings": {
+    "model": "GPT-6",
+    "effort": "High",
+    "temporary": true
+  },
+  "settings_note": "Three user-supplied outputs have unverified settings; requested settings describe the protocol.",
+  "ordering_note": "Prompt URL order was shuffled locally. This does not establish per-request shuffling on the historical linked pages.",
+  "output_formats": {
+    "ranking_array_excerpt": 19,
+    "structured_model_output": 61
+  }
+}
