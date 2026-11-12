@@ -45,8 +45,8 @@ collection dates and evaluation settings.
 
 Round 001 includes five frozen +/-0.2% price conditions: ChatGPT and Grok with
 brand-page URLs, and ChatGPT, Grok and Gemini with randomly ordered product URLs.
-Each condition contains 80 final outputs, their settings and derived scores. Records are grouped by experiment
-and evaluator within `raw/`, with matching subdirectories in `scores/`.
+Each condition contains 80 final outputs, their settings and derived scores. Directories use `<model>-<price-condition>-<entry>`, for example
+`chatgpt-random-price-url`, under both `raw/` and `scores/`.
 
 ## Reproducing
 
@@ -68,7 +68,7 @@ To run a new round:
 2. Use the templates in `prompts/templates.md`. Save the supplied URL order for
    each brand; keep it unchanged when testing repeatability.
 3. Save the final selected output and its settings for each brand in
-   `rounds/round_002_YYYY-MM-DD/raw/<experiment>/<evaluator>/`.
+   `rounds/round_002_YYYY-MM-DD/raw/<model>-<price-condition>-<entry>/`.
 4. Calculate Top-1 rates and mean ranks from the included brand rankings. Save
    the scores and sample counts in the corresponding `scores/` directory.
 

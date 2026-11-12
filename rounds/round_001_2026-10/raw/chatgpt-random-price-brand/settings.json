@@ -1,0 +1,20 @@
+{
+  "condition_id": "c08",
+  "evaluator": "ChatGPT",
+  "price_condition": "frozen +/-0.2%",
+  "entry": "brand URL",
+  "n": 80,
+  "raw_directory": "raw/chatgpt-random-price-brand",
+  "scores_directory": "scores/chatgpt-random-price-brand",
+  "candidate_order": "randomized in server-rendered brand-page responses",
+  "selection": "Final selected observations used in the reported statistics.",
+  "requested_settings": {
+    "model": "GPT-6",
+    "effort": "High",
+    "temporary": true
+  },
+  "settings_note": "Four user-supplied outputs have user-confirmed settings.",
+  "output_formats": {
+    "structured_model_output": 80
+  }
+}

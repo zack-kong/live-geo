@@ -1,0 +1,20 @@
+{
+  "condition_id": "c18",
+  "evaluator": "Gemini",
+  "price_condition": "frozen +/-0.2%",
+  "entry": "product URLs",
+  "n": 80,
+  "raw_directory": "raw/gemini-random-price-url",
+  "scores_directory": "scores/gemini-random-price-url",
+  "candidate_order": "locally shuffled six-product URL sequence saved in each prompt",
+  "selection": "Final selected observations used in the reported statistics.",
+  "requested_settings": {
+    "model": "Gemini",
+    "displayed_version": "3.6 Thinking",
+    "temporary": false
+  },
+  "ordering_note": "Prompt URL order was shuffled locally. This does not establish per-request shuffling on the historical linked pages.",
+  "output_formats": {
+    "structured_model_output": 80
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "condition_id": "c12",
+  "evaluator": "Grok",
+  "price_condition": "frozen +/-0.2%",
+  "entry": "product URLs",
+  "n": 80,
+  "raw_directory": "raw/grok-random-price-url",
+  "scores_directory": "scores/grok-random-price-url",
+  "candidate_order": "locally shuffled six-product URL sequence saved in each prompt",
+  "selection": "Final selected observations used in the reported statistics.",
+  "requested_settings": {
+    "mode": "Expert",
+    "private_chat": true
+  },
+  "ordering_note": "Prompt URL order was shuffled locally. This does not establish per-request shuffling on the historical linked pages.",
+  "output_formats": {
+    "structured_model_output": 80
+  }
+}

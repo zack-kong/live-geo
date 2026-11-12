@@ -11,9 +11,11 @@ Prices are assigned within +/-0.2% of each brand's base price and remain fixed.
 | Grok | Brand-page URL with server-randomized listing order | 80 |
 | Gemini | Six locally shuffled product URLs | 80 |
 
-The catalogue is in `catalogue/` at the repository root. `raw/random_price/`
+The catalogue is in `catalogue/` at the repository root. `raw/`
 contains one directory per condition, with 80 brand files and `settings.json`.
-Matching directories in `scores/random_price/` contain individual rankings and
+Names follow `<model>-random-price-<entry>`, where `url` means supplied product
+URLs and `brand` means a brand-page URL. For example: `chatgpt-random-price-url`.
+Matching directories in `scores/` contain individual rankings and
 strategy summaries. `scores/summary.csv` combines the five conditions;
 `scores/agreement_descriptive.csv` compares their rankings on shared brands.
 
