@@ -1,4 +1,4 @@
-# LIVE-GEO
+# LIVE-GEO Benchmark
 
 A benchmark for evaluating Generative Engine Optimization (GEO) on the live web.
 
@@ -9,7 +9,7 @@ them through supplied URLs.
 
 **Paper:** [Do GEO Gains Survive the Live Web?](https://arxiv.org/abs/2611.01126) (arXiv:2611.01126)
 **Site:** https://livegeobench.com/
-**Code and round data:** https://github.com/zack-kong/live-geo
+**Code and round data:** https://github.com/zack-kong/live-geo-bench
 
 ## What we found
 
@@ -52,8 +52,8 @@ Each condition contains 80 final outputs, their settings and derived scores. Dir
 ## Reproducing
 
 ```bash
-git clone https://github.com/zack-kong/live-geo.git
-cd live-geo
+git clone https://github.com/zack-kong/live-geo-bench.git
+cd live-geo-bench
 pip install -r requirements.txt
 
 # Re-score the released round from its saved outputs.
