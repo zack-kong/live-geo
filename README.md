@@ -9,7 +9,7 @@ them through supplied URLs.
 
 **Paper:** [Do GEO Gains Survive the Live Web?](https://arxiv.org/abs/2611.01126) (arXiv:2611.01126)
 **Site:** https://livegeobench.com/
-**Code and round data:** https://github.com/zack-kong/live-geo (private during review)
+**Code and round data:** https://github.com/zack-kong/live-geo
 
 ## What we found
 
@@ -41,7 +41,7 @@ collection dates and evaluation settings.
 
 | Round | Date | Engines | Status |
 |-------|------|---------|--------|
-| 001 | October 2026 | ChatGPT, Gemini, Grok | Reported in the paper; private review release |
+| 001 | October 2026 | ChatGPT, Gemini, Grok | Published |
 | 002 | TBD | TBD | Planned |
 
 Round 001 includes five frozen +/-0.2% price conditions: ChatGPT and Grok with
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python analysis/reproduce_tables.py --round round_001_2026-10 --check
 ```
 
-The repository is private during review; cloning requires collaborator access.
+For new API, local Qwen and optional JEV evaluations, see [evaluation instructions](eval/README.md).
 
 To run a new round:
 

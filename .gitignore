@@ -4,3 +4,7 @@ __pycache__/
 .env
 .env.*
 .DS_Store
+
+# New local measurements and optional model weights are not release data.
+outputs/
+weights/

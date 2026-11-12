@@ -1,0 +1,3 @@
+# Optional local Qwen execution; download weights separately under their license.
+torch>=2.2,<3
+transformers>=4.45,<6
