@@ -8,7 +8,8 @@ real, crawlable websites and asks web-connected AI systems to access and rank
 them through supplied URLs.
 
 **Paper:** [Do GEO Gains Survive the Live Web?](https://arxiv.org/abs/2611.01126) (arXiv:2611.01126)
-**Site:** https://livegeobench.com
+**Site:** https://livegeobench.com/
+**Code and round data:** https://github.com/zack-kong/live-geo (private during review)
 
 ## What we found
 
@@ -40,7 +41,7 @@ collection dates and evaluation settings.
 
 | Round | Date | Engines | Status |
 |-------|------|---------|--------|
-| 001 | October 2026 | ChatGPT, Gemini, Grok | Reported in the paper; release package in preparation |
+| 001 | October 2026 | ChatGPT, Gemini, Grok | Reported in the paper; private review release |
 | 002 | TBD | TBD | Planned |
 
 Round 001 includes five frozen +/-0.2% price conditions: ChatGPT and Grok with
@@ -51,7 +52,7 @@ Each condition contains 80 final outputs, their settings and derived scores. Dir
 ## Reproducing
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/zack-kong/live-geo.git
 cd live-geo
 pip install -r requirements.txt
 
@@ -59,7 +60,7 @@ pip install -r requirements.txt
 python analysis/reproduce_tables.py --round round_001_2026-10 --check
 ```
 
-The repository URL will be added when the research package is published.
+The repository is private during review; cloning requires collaborator access.
 
 To run a new round:
 
